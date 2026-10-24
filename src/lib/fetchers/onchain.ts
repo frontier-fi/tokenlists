@@ -1,17 +1,16 @@
-import { getAddress, InfuraProvider, JsonRpcProvider } from 'ethers'
+import { getAddress, JsonRpcProvider } from 'ethers'
 import { Network, PartialTokenInfoMap } from '../../types'
 import config from '../../config'
 import { Multicaller } from '../multicaller'
 import ERC20_ABI from '../abi/ERC20.abi.json'
 import _ from 'lodash'
 
-function getProvider(network: Network): InfuraProvider | JsonRpcProvider {
-  if (!process.env.INFURA_KEY) throw new Error('Missing INFURA_KEY env var')
+function getProvider(network: Network): JsonRpcProvider {
   const networkConfig = config[network]
-  if (networkConfig.rpc) {
-    return new JsonRpcProvider(networkConfig.rpc)
+  if (!networkConfig.rpc) {
+    throw new Error(`Missing RPC endpoint for network ${network}`)
   }
-  return new InfuraProvider(Number(network), process.env.INFURA_KEY)
+  return new JsonRpcProvider(networkConfig.rpc)
 }
 
 export async function fetchOnchainMetadata(

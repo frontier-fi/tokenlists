@@ -1,6 +1,6 @@
 export default {
   name: 'sepolia',
-  rpc: `https://lb.drpc.org/ogrpc?network=sepolia&dkey=${process.env.DRPC_KEY}`,
+  rpc: process.env.SEPOLIA_RPC_ENDPOINT,
   coingecko: {
     platformId: 'sepolia',
   },
