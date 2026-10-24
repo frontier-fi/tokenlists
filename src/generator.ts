@@ -49,10 +49,6 @@ async function run() {
  * 4. Coingecko data (last resort on address my address basis)
  */
 
-// Temporary: only Sepolia has an RPC key (SEPOLIA_RPC_ENDPOINT).
-// Other chains reuse tokens from the existing generated list until DRPC keys are added.
-const NETWORKS_TO_REGENERATE: Network[] = [Network.Sepolia]
-
 async function build(tokenlistName: string) {
   let network: Network
   let allTokens: TokenInfo[] = []
@@ -61,16 +57,6 @@ async function build(tokenlistName: string) {
 
   for (network in tokens) {
     console.log(chalk.cyan(`Starting build for ${network}`))
-
-    if (!NETWORKS_TO_REGENERATE.includes(network)) {
-      console.log(
-        chalk.yellow(
-          `Skipping onchain fetch for ${network}; reusing existing tokens`
-        )
-      )
-      allTokens = allTokens.concat(readTokenInfo(tokenlistName, Number(network)))
-      continue
-    }
 
     // format to hashed value
     const tokenAddresses = tokens[network].map((token) => getAddress(token))

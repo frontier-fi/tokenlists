@@ -1,6 +1,8 @@
+import { drpcRpc } from './drpc'
+
 export default {
   name: 'zkevm',
-  rpc: `https://lb.drpc.org/ogrpc?network=polygon-zkevm&dkey=${process.env.DRPC_KEY}`,
+  rpc: drpcRpc('polygon-zkevm'),
   coingecko: {
     platformId: 'polygon-zkevm',
   },

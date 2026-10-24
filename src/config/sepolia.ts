@@ -1,6 +1,8 @@
+import { drpcRpc } from './drpc'
+
 export default {
   name: 'sepolia',
-  rpc: process.env.SEPOLIA_RPC_ENDPOINT,
+  rpc: drpcRpc('sepolia'),
   coingecko: {
     platformId: 'sepolia',
   },

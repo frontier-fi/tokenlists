@@ -1,6 +1,8 @@
+import { drpcRpc } from './drpc'
+
 export default {
   name: 'sonic',
-  rpc: 'https://rpc.soniclabs.com',
+  rpc: drpcRpc('sonic'),
   coingecko: {
     platformId: 'sonic',
   },

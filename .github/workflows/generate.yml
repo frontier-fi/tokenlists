@@ -17,10 +17,8 @@ jobs:
       - name: Generate Tokenlists
         run: npm run generate
         env:
-          SEPOLIA_RPC_ENDPOINT: ${{ secrets.SEPOLIA_RPC_ENDPOINT }}
-          ALCHEMY_KEY: ${{ secrets.ALCHEMY_KEY }}
-          COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
           DRPC_KEY: ${{ secrets.DRPC_KEY }}
+          COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
         with:

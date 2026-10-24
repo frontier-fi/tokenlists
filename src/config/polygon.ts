@@ -1,6 +1,8 @@
+import { drpcRpc } from './drpc'
+
 export default {
   name: 'polygon',
-  rpc: `https://lb.drpc.org/ogrpc?network=polygon&dkey=${process.env.DRPC_KEY}`,
+  rpc: drpcRpc('polygon'),
   coingecko: {
     platformId: 'polygon-pos',
   },

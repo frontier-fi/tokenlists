@@ -44,17 +44,14 @@ necessary files. Then, just add token addresses to the `tokens.ts` file and run
 ## Development
 
 To run the `generate` command locally or in the Github actions of a fork you
-will need to add these ENV variables:
+will need `DRPC_KEY`. Every chain uses that key against dRPC. `COINGECKO_API_KEY`
+is optional and only used when onchain and existing metadata are incomplete.
 
 ```
 DRPC_KEY=xxx
-SEPOLIA_RPC_ENDPOINT=xxx
-ALCHEMY_KEY=xxx
 COINGECKO_API_KEY=xxx
 
 ```
 
-You'll need to sign up for each of those services to get keys:
-
-- https://drpc.org/
+Sign up for a dRPC key at https://drpc.org/.
 

@@ -1,6 +1,8 @@
+import { drpcRpc } from './drpc'
+
 export default {
   name: 'hyperevm',
-  rpc: `https://lb.drpc.org/ogrpc?network=hyperliquid&dkey=${process.env.DRPC_KEY}`,
+  rpc: drpcRpc('hyperliquid'),
   coingecko: {
     platformId: 'hyperevm',
   },
