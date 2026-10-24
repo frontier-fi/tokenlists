@@ -68,7 +68,9 @@ async function build(tokenlistName: string) {
           `Skipping onchain fetch for ${network}; reusing existing tokens`
         )
       )
-      allTokens = allTokens.concat(readTokenInfo(tokenlistName, Number(network)))
+      allTokens = allTokens.concat(
+        readTokenInfo(tokenlistName, Number(network))
+      )
       continue
     }
 
