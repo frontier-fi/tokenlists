@@ -48,7 +48,7 @@ will need to add these ENV variables:
 
 ```
 DRPC_KEY=xxx
-INFURA_KEY=xxx
+SEPOLIA_RPC_ENDPOINT=xxx
 ALCHEMY_KEY=xxx
 COINGECKO_API_KEY=xxx
 
@@ -56,5 +56,5 @@ COINGECKO_API_KEY=xxx
 
 You'll need to sign up for each of those services to get keys:
 
-- https://www.infura.io/
-- https://www.pokt.network/
+- https://drpc.org/
+
