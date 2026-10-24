@@ -26,6 +26,9 @@ on:
 
 jobs:
   allowlist-token:
+    permissions:
+      contents: write
+      pull-requests: write
     uses: ./.github/workflows/allowlist.yml
     with:
       network: ${{ github.event.inputs.network }}

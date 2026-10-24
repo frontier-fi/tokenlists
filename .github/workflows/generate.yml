@@ -9,9 +9,12 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
       - name: Install Dependencies
         run: npm ci
       - name: Generate Tokenlists
@@ -22,9 +25,8 @@ jobs:
           COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
           DRPC_KEY: ${{ secrets.DRPC_KEY }}
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v4
+        uses: peter-evans/create-pull-request@v8
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: 'chore: Update generated tokenlists'
           committer: GitHub <noreply@github.com>
           author:
