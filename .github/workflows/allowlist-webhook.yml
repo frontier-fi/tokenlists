@@ -7,9 +7,9 @@ on:
 jobs:
   allowlist-token:
     permissions:
-      contents: write
-      pull-requests: write
+      contents: read
     uses: ./.github/workflows/allowlist.yml
+    secrets: inherit
     with:
       network: ${{ github.event.client_payload.network }}
       tokenAddress: ${{ github.event.client_payload.tokenAddress }}

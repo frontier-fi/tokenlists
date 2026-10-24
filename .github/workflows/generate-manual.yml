@@ -6,7 +6,6 @@ on:
 jobs:
   generate:
     permissions:
-      contents: write
-      pull-requests: write
+      contents: read
     uses: ./.github/workflows/generate.yml
     secrets: inherit
