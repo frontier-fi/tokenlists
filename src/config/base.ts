@@ -1,6 +1,8 @@
+import { drpcRpc } from './drpc'
+
 export default {
   name: 'base',
-  rpc: `https://lb.drpc.org/ogrpc?network=base&dkey=${process.env.DRPC_KEY}`,
+  rpc: drpcRpc('base'),
   coingecko: {
     platformId: 'base',
   },

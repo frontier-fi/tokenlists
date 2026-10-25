@@ -1,6 +1,8 @@
+import { drpcRpc } from './drpc'
+
 export default {
   name: 'ethereum',
-  rpc: `https://lb.drpc.org/ogrpc?network=ethereum&dkey=${process.env.DRPC_KEY}`,
+  rpc: drpcRpc('ethereum'),
   coingecko: {
     platformId: 'ethereum',
   },

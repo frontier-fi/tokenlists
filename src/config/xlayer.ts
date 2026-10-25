@@ -1,6 +1,8 @@
+import { drpcRpc } from './drpc'
+
 export default {
   name: 'xlayer',
-  rpc: `https://lb.drpc.org/ogrpc?network=xlayer&dkey=${process.env.DRPC_KEY}`,
+  rpc: drpcRpc('xlayer'),
   coingecko: {
     platformId: 'xlayer',
   },

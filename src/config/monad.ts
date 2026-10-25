@@ -1,6 +1,8 @@
+import { drpcRpc } from './drpc'
+
 export default {
   name: 'monad',
-  rpc: `https://lb.drpc.org/ogrpc?network=monad&dkey=${process.env.DRPC_KEY}`,
+  rpc: drpcRpc('monad'),
   coingecko: {
     platformId: 'monad',
   },
