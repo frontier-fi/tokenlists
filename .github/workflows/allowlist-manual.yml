@@ -26,7 +26,10 @@ on:
 
 jobs:
   allowlist-token:
+    permissions:
+      contents: read
     uses: ./.github/workflows/allowlist.yml
+    secrets: inherit
     with:
       network: ${{ github.event.inputs.network }}
       tokenAddress: ${{ github.event.inputs.tokenAddress }}
