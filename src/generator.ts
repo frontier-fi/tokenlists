@@ -49,10 +49,6 @@ async function run() {
  * 4. Coingecko data (last resort on address my address basis)
  */
 
-// Temporary: only Sepolia has an RPC key (SEPOLIA_RPC_ENDPOINT).
-// Other chains reuse tokens from the existing generated list until DRPC keys are added.
-const NETWORKS_TO_REGENERATE: Network[] = [Network.Sepolia]
-
 async function build(tokenlistName: string) {
   let network: Network
   let allTokens: TokenInfo[] = []

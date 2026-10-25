@@ -1,6 +1,8 @@
+import { drpcRpc } from './drpc'
+
 export default {
   name: 'fantom',
-  rpc: `https://lb.drpc.org/ogrpc?network=fantom&dkey=${process.env.DRPC_KEY}`,
+  rpc: drpcRpc('fantom'),
   coingecko: {
     platformId: 'fantom',
   },

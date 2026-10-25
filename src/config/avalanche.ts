@@ -1,6 +1,8 @@
+import { drpcRpc } from './drpc'
+
 export default {
   name: 'avalanche',
-  rpc: `https://lb.drpc.org/ogrpc?network=avalanche&dkey=${process.env.DRPC_KEY}`,
+  rpc: drpcRpc('avalanche'),
   coingecko: {
     platformId: 'avalanche',
   },

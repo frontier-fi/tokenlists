@@ -1,6 +1,8 @@
+import { drpcRpc } from './drpc'
+
 export default {
   name: 'plasma',
-  rpc: `https://lb.drpc.org/ogrpc?network=plasma&dkey=${process.env.DRPC_KEY}`,
+  rpc: drpcRpc('plasma'),
   coingecko: {
     platformId: 'plasma',
   },

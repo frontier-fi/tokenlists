@@ -1,6 +1,8 @@
+import { drpcRpc } from './drpc'
+
 export default {
   name: 'fraxtal',
-  rpc: `https://lb.drpc.org/ogrpc?network=fraxtal&dkey=${process.env.DRPC_KEY}`,
+  rpc: drpcRpc('fraxtal'),
   coingecko: {
     platformId: 'frax',
   },
