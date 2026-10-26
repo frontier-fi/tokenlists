@@ -14,6 +14,7 @@ import {
   isEqualTokenlists,
   safeStringify,
 } from './lib/utils'
+import { NETWORKS_TO_REGENERATE } from './config/networks-to-regenerate'
 
 /**
  * Primary generation function.
@@ -57,6 +58,18 @@ async function build(tokenlistName: string) {
 
   for (network in tokens) {
     console.log(chalk.cyan(`Starting build for ${network}`))
+
+    if (!NETWORKS_TO_REGENERATE.includes(network)) {
+      console.log(
+        chalk.yellow(
+          `Skipping onchain fetch for ${network}; reusing existing tokens`
+        )
+      )
+      allTokens = allTokens.concat(
+        readTokenInfo(tokenlistName, Number(network))
+      )
+      continue
+    }
 
     // format to hashed value
     const tokenAddresses = tokens[network].map((token) => getAddress(token))
