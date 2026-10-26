@@ -36,7 +36,7 @@ jobs:
       - name: Generate Tokenlists
         run: npm run generate
         env:
-          DRPC_KEY: ${{ secrets.DRPC_KEY }}
+          DRPC_API_KEY: ${{ secrets.DRPC_API_KEY }}
           COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
       - name: Create Pull Request
         id: create-pr

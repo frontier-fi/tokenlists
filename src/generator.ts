@@ -14,6 +14,7 @@ import {
   isEqualTokenlists,
   safeStringify,
 } from './lib/utils'
+import { NETWORKS_TO_REGENERATE } from './config/networks-to-regenerate'
 
 /**
  * Primary generation function.
