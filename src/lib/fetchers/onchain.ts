@@ -9,7 +9,7 @@ function getProvider(network: Network): JsonRpcProvider {
   const networkConfig = config[network]
   if (!networkConfig.rpc) {
     throw new Error(
-      `Missing RPC endpoint for network ${network}. Set DRPC_KEY.`
+      `Missing RPC endpoint for network ${network}. Set DRPC_API_KEY.`
     )
   }
   return new JsonRpcProvider(networkConfig.rpc)
