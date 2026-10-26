@@ -3,7 +3,7 @@
     "version": {
         "major": 1,
         "minor": 0,
-        "patch": 560
+        "patch": 562
     },
     "keywords": [
         "Balancer",
@@ -17,7 +17,7 @@
         "Swap"
     ],
     "logoURI": "https://raw.githubusercontent.com/balancer/pebbles/master/images/pebbles-pad.256w.png",
-    "timestamp": "2026-10-26T17:43:20.783Z",
+    "timestamp": "2026-10-26T21:25:38.607Z",
     "tokens": [
         {
             "chainId": 1,
@@ -7597,7 +7597,7 @@
             "name": "Lombard Staked Bitcoin",
             "symbol": "LBTC",
             "decimals": 8,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x8236a87084f8b84306f72007f36f2618a5634494.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/39969/large/lbtc-token-circle-200.png?1786635984",
             "extensions": {
                 "coingeckoId": "lombard-staked-btc"
             }
@@ -9460,7 +9460,7 @@
             "name": "Staked Frax USD",
             "symbol": "sfrxUSD",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/sfrxusd.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/53964/large/sfrxUSD.png?1737792232",
             "extensions": {
                 "coingeckoId": "staked-frax-usd"
             }
@@ -9478,7 +9478,7 @@
             "name": "Staked Frax Ether",
             "symbol": "sfrxETH",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/sfrxETH.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/28285/large/sfrxETH_icon.png?1696527285",
             "extensions": {
                 "coingeckoId": "staked-frax-ether"
             }
@@ -9489,7 +9489,7 @@
             "name": "Wrapped Frax",
             "symbol": "WFRAX",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/FRAX.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/13423/large/FRAX_icon.png?1768982703",
             "extensions": {
                 "coingeckoId": "frax-share"
             }
@@ -9959,7 +9959,7 @@
             "name": "Gho Token",
             "symbol": "GHO",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xfc421ad3c883bf9e7c4f42de845c4e4405799e73.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/30663/large/gho-token-logo.png?1720517092",
             "extensions": {
                 "coingeckoId": "gho"
             }
@@ -12994,7 +12994,7 @@
             "name": "Wrapped BTC",
             "symbol": "WBTC",
             "decimals": 8,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x0555e30da8f98308edb960aa94c0db47230d2b9c.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/7598/large/WBTCLOGO.png?1764496367",
             "extensions": {
                 "coingeckoId": "wrapped-bitcoin"
             }
@@ -13021,7 +13021,7 @@
             "name": "Staked Yuzu USD",
             "symbol": "syzUSD",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x484be0540ad49f351eaa04eeb35df0f937d4e73f.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/70132/large/Group_427319351.png?1760695727",
             "extensions": {
                 "coingeckoId": "staked-yuzu-usd"
             }
@@ -13223,7 +13223,7 @@
             "name": "Rocket Pool ETH",
             "symbol": "rETH",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xc50f2e735edd9dcd8ccd41ecfe9894e679e3195f.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/20764/large/reth.png?1696520159",
             "extensions": {
                 "coingeckoId": "rocket-pool-eth"
             }
@@ -13314,7 +13314,7 @@
             "name": "avUSD",
             "symbol": "avUSD",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x0d9d741fe423cd5419e4bcb6cb2ffa87afa93ba4.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/53527/large/token-avusd.png?1736579003",
             "extensions": {
                 "coingeckoId": "avant-usd"
             }
@@ -13325,7 +13325,7 @@
             "name": "Staked avUSD",
             "symbol": "savUSD",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x9648db94f1e6b19e7d755585542981f97dc806c6.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/53558/large/token-savusd.png?1736674786",
             "extensions": {
                 "coingeckoId": "avant-staked-usd"
             }
@@ -13376,7 +13376,7 @@
             "name": "Syrup USDC",
             "symbol": "syrupUSDC",
             "decimals": 6,
-            "logoURI": "https://coin-images.coingecko.com/coins/images/54658/large/syrupUSDC.png?1761824955",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/54658/large/syrupUSDC.png?1790836003",
             "extensions": {
                 "coingeckoId": "syrupusdc"
             }
@@ -13387,7 +13387,7 @@
             "name": "USDe",
             "symbol": "USDe",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/33613/large/usde.png?1733810059",
             "extensions": {
                 "coingeckoId": "ethena-usde"
             }
@@ -13398,7 +13398,7 @@
             "name": "Staked USDe",
             "symbol": "sUSDe",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/33669/large/sUSDe-Symbol-Color.png?1716307680",
             "extensions": {
                 "coingeckoId": "ethena-staked-usde"
             }
@@ -13495,7 +13495,7 @@
             "name": "Beets Staked Sonic",
             "symbol": "stS",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xe5da20f15420ad15de0fa650600afc998bbe3955.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/52937/large/token-beets-staked-sonic.png?1734712659",
             "extensions": {
                 "coingeckoId": "beets-staked-sonic"
             }
@@ -13506,7 +13506,7 @@
             "name": "Beets",
             "symbol": "BEETS",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x2D0E0814E62D80056181F5cd932274405966e4f0.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/53249/large/beets.png?1735873104",
             "extensions": {
                 "coingeckoId": "beets"
             }
@@ -13517,7 +13517,7 @@
             "name": "Wrapped Sonic",
             "symbol": "wS",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x039e2fb66102314ce7b64ce5ce3e5183bc94ad38.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/38108/large/200x200_Sonic_Logo.png?1734679256",
             "extensions": {
                 "coingeckoId": "sonic-3"
             }
@@ -13536,7 +13536,7 @@
             "name": "USDC",
             "symbol": "USDC",
             "decimals": 6,
-            "logoURI": "https://assets.coingecko.com/coins/images/6319/large/usdc.png?1696506694",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/6319/large/USDC.png?1769615602",
             "extensions": {
                 "coingeckoId": "usd-coin"
             }
@@ -13547,7 +13547,7 @@
             "name": "Solv BTC",
             "symbol": "SolvBTC",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/36800/standard/solvBTC.png?1719810684",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/36800/large/solvBTC.png?1719810684",
             "extensions": {
                 "coingeckoId": "solv-btc"
             }
@@ -13558,7 +13558,7 @@
             "name": "xSolvBTC",
             "symbol": "SolvBTC.BBN",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/39384/standard/unnamed.png?1721961640",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/39384/large/xSolvBTC.png?1744170824",
             "extensions": {
                 "coingeckoId": "solv-protocol-solvbtc-bbn"
             }
@@ -13721,7 +13721,7 @@
             "name": "Sonic USD",
             "symbol": "scUSD",
             "decimals": 6,
-            "logoURI": "https://i.ibb.co/PFw2zkx/scUSD64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/53456/large/scusd_%281%29.png?1736404738",
             "extensions": {
                 "coingeckoId": "rings-scusd"
             }
@@ -13772,7 +13772,7 @@
             "name": "PaintSwap",
             "symbol": "BRUSH",
             "decimals": 18,
-            "logoURI": "https://dd.dexscreener.com/ds-data/tokens/sonic/0xe51ee9868c1f0d6cd968a8b8c8376dc2991bfe44.png?size=lg&key=50f8b4",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/18579/large/ps_logo_200x200.png?1748851012",
             "extensions": {
                 "coingeckoId": "paint-swap"
             }
@@ -13962,7 +13962,7 @@
             "name": "Silo Governance Token",
             "symbol": "Silo",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x53f753E4B17F4075D6fa2c6909033d224b81e698.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/21454/large/SILO_%281%29.png?1746759127",
             "extensions": {
                 "coingeckoId": "silo-finance"
             }
@@ -14064,7 +14064,7 @@
             "name": "Tether USD",
             "symbol": "USDT",
             "decimals": 6,
-            "logoURI": "https://coin-images.coingecko.com/coins/images/31185/large/anyusdt_32.png?1696530013",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661",
             "extensions": {
                 "coingeckoId": "tether"
             }
@@ -14107,7 +14107,7 @@
             "name": "Eggs",
             "symbol": "EGGS",
             "decimals": 18,
-            "logoURI": "https://dd.dexscreener.com/ds-data/tokens/sonic/0xf26ff70573ddc8a90bd7865af8d7d70b8ff019bc.png?size=lg&key=5e5b9c",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/54477/large/eggs-logo200px.png?1739954642",
             "extensions": {
                 "coingeckoId": "eggs-finance"
             }
@@ -14118,7 +14118,7 @@
             "name": "Lombard Staked Bitcoin",
             "symbol": "LBTC",
             "decimals": 8,
-            "logoURI": "https://sonicscan.org/token/images/lbtc_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/39969/large/lbtc-token-circle-200.png?1786635984",
             "extensions": {
                 "coingeckoId": "lombard-staked-btc"
             }
@@ -14129,7 +14129,7 @@
             "name": "Sonic BTC",
             "symbol": "scBTC",
             "decimals": 8,
-            "logoURI": "https://i.ibb.co/F4CXYdL4/scBTC-32.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/7598/large/WBTCLOGO.png?1764496367",
             "extensions": {
                 "coingeckoId": "wrapped-bitcoin"
             }
@@ -14154,7 +14154,7 @@
             "name": "Backed CSPX Core S&P 500",
             "symbol": "bCSPX",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x1e2c4fb7ede391d116e6b41cd0608260e8801d59.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/31891/large/bCSPX_200p.png?1740041074",
             "extensions": {
                 "coingeckoId": "backed-cspx-core-s-p-500"
             }
@@ -14173,7 +14173,7 @@
             "name": "Wrapped BTC",
             "symbol": "WBTC",
             "decimals": 8,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x0555e30da8f98308edb960aa94c0db47230d2b9c.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/7598/large/WBTCLOGO.png?1764496367",
             "extensions": {
                 "coingeckoId": "wrapped-bitcoin"
             }
@@ -14244,7 +14244,7 @@
             "name": "Frax USD",
             "symbol": "frxUSD",
             "decimals": 18,
-            "logoURI": "https://static.frax.com/images/tokens/frxusd.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/53963/large/frxUSD.png?1737792154",
             "extensions": {
                 "coingeckoId": "frax-usd"
             }
@@ -14394,7 +14394,7 @@
             "name": "Shadow Liquid Staking Token",
             "symbol": "x33",
             "decimals": 18,
-            "logoURI": "https://dd.dexscreener.com/ds-data/tokens/sonic/0x3333111a391cc08fa51353e9195526a70b333333.png?size=lg&key=6ad28a",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/54526/large/shadow_liquid_staking_token17400.jpg?1740148577",
             "extensions": {
                 "coingeckoId": "shadow-liquid-staking-token"
             }
@@ -14413,7 +14413,7 @@
             "name": "Wagmi",
             "symbol": "WAGMI",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/RealWagmi/tokenlists/main/logos/146/0x0e0Ce4D450c705F8a0B6Dd9d5123e3df2787D16B/logo.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/31887/large/wagmi_token_logo.png?1696530698",
             "extensions": {
                 "coingeckoId": "wagmi-2"
             }
@@ -14499,7 +14499,7 @@
             "name": "Rezerve.money",
             "symbol": "RZR",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/rzr.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/67679/large/New_Project_%289%29.png?1753503135",
             "extensions": {
                 "coingeckoId": "rezerve-money"
             }
@@ -14569,7 +14569,7 @@
             "name": "Derp Token",
             "symbol": "DERP",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/53307/standard/DERP_TOKEN.png?1736066460",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/53307/large/DERP_TOKEN.png?1736066460",
             "extensions": {
                 "coingeckoId": "derp-2"
             }
@@ -14663,7 +14663,7 @@
             "name": "rsETHWrapper",
             "symbol": "wrsETH",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x87eee96d50fb761ad85b1c982d28a042169d61b1.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/37919/large/rseth.png?1715936438",
             "extensions": {
                 "coingeckoId": "wrapped-rseth"
             }
@@ -14698,7 +14698,7 @@
             "name": "BOLD Stablecoin",
             "symbol": "BOLD",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xf05a207442f14e446b0e32b12d2043bfc68cb1c9.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/56069/large/BOLD_logo.png?1748265087",
             "extensions": {
                 "coingeckoId": "liquity-bold-2"
             }
@@ -14775,7 +14775,7 @@
             "name": "Flying Tulip USD",
             "symbol": "ftUSD",
             "decimals": 6,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/FlyingTulip_ftUSD.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102172348/large/flyingtulip_ftusd_200.png?1773039176",
             "extensions": {
                 "coingeckoId": "flying-tulip-usd"
             }
@@ -14810,7 +14810,8 @@
             "decimals": 8,
             "extensions": {
                 "coingeckoId": "okx-wrapped-btc"
-            }
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/66627/large/xbtc.png?1750067602"
         },
         {
             "chainId": 250,
@@ -15940,7 +15941,7 @@
             "name": "Balancer",
             "symbol": "BAL",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x2fc7447f6cf71f9aa9e7ff8814b37e55b268ec91.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/11683/large/Balancer.png?1696511572",
             "extensions": {
                 "coingeckoId": "balancer"
             }
@@ -15983,7 +15984,7 @@
             "name": "Frax USD",
             "symbol": "frxUSD",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xfc00000000000000000000000000000000000001.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/53963/large/frxUSD.png?1737792154",
             "extensions": {
                 "coingeckoId": "frax-usd"
             }
@@ -15994,7 +15995,7 @@
             "name": "Staked Frax Ether",
             "symbol": "sfrxETH",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xfc00000000000000000000000000000000000005.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/28285/large/sfrxETH_icon.png?1696527285",
             "extensions": {
                 "coingeckoId": "staked-frax-ether"
             }
@@ -16013,7 +16014,7 @@
             "name": "Staked Frax USD",
             "symbol": "sfrxUSD",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xfc00000000000000000000000000000000000008.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/53964/large/sfrxUSD.png?1737792232",
             "extensions": {
                 "coingeckoId": "staked-frax-usd"
             }
@@ -16032,7 +16033,7 @@
             "name": "USDe",
             "symbol": "USDe",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/33613/large/usde.png?1733810059",
             "extensions": {
                 "coingeckoId": "ethena-usde"
             }
@@ -16043,7 +16044,7 @@
             "name": "Savings Dai",
             "symbol": "sDAI",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x09eadcbaa812a4c076c3a6cde765dc4a22e0d775.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/32254/large/sdai.png?1697015278",
             "extensions": {
                 "coingeckoId": "savings-dai"
             }
@@ -16054,7 +16055,7 @@
             "name": "Staked USDe",
             "symbol": "sUSDe",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/33669/large/sUSDe-Symbol-Color.png?1716307680",
             "extensions": {
                 "coingeckoId": "ethena-staked-usde"
             }
@@ -16076,7 +16077,7 @@
             "name": "USD₮0",
             "symbol": "USD₮0",
             "decimals": 6,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/53705/large/usdt0.jpg?1737086183",
             "extensions": {
                 "coingeckoId": "usdt0"
             }
@@ -16205,7 +16206,7 @@
             "name": "Resolv Liquidity Provider Token",
             "symbol": "RLP",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x0a3d8466f5de586fa5f6de117301e2f90bcc5c48.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/40017/large/orangeLogo..png?1725344586",
             "extensions": {
                 "coingeckoId": "resolv-rlp"
             }
@@ -17156,7 +17157,7 @@
             "name": "Staked Frax Ether",
             "symbol": "sfrxETH",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x1f55a02a049033e3419a8e2975cf3f572f4e6e9a.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/28285/large/sfrxETH_icon.png?1696527285",
             "extensions": {
                 "coingeckoId": "staked-frax-ether"
             }
@@ -17517,7 +17518,7 @@
             "name": "Lombard Staked Bitcoin",
             "symbol": "LBTC",
             "decimals": 8,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xecac9c5f704e954931349da37f60e39f515c11c1.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/39969/large/lbtc-token-circle-200.png?1786635984",
             "extensions": {
                 "coingeckoId": "lombard-staked-btc"
             }
@@ -17819,7 +17820,7 @@
             "name": "Axelar Wrapped OP",
             "symbol": "axlOP",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x994ac01750047b9d35431a7ae4ed312ee955e030.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/25244/large/Token.png?1774456081",
             "extensions": {
                 "coingeckoId": "optimism"
             }
@@ -17977,7 +17978,7 @@
             "name": "Wrapped USDX",
             "symbol": "USDX",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xf3527ef8de265eaa3716fb312c12847bfba66cef.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/50360/large/USDX200px.png?1731906044",
             "extensions": {
                 "coingeckoId": "usdx-money-usdx"
             }
@@ -18031,7 +18032,7 @@
             "name": "Treehouse ETH",
             "symbol": "tETH",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xd09acb80c1e8f2291862c4978a008791c9167003.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/40155/large/tETH_Logo_%28Color__No_Background%29.png?1748368386",
             "extensions": {
                 "coingeckoId": "treehouse-eth"
             }
@@ -18042,7 +18043,7 @@
             "name": "BRZ Token",
             "symbol": "BRZ",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xe9185ee218cae427af7b9764a011bb89fea761b4.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/8472/large/MicrosoftTeams-image_%286%29.png?1696508657",
             "extensions": {
                 "coingeckoId": "brz"
             }
@@ -18148,7 +18149,7 @@
             "name": "Wrapped XPL",
             "symbol": "WXPL",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x6100e367285b01f48d07953803a2d8dca5d19873.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/66489/large/Plasma-symbol-green-1.png?1755142558",
             "extensions": {
                 "coingeckoId": "plasma"
             }
@@ -18159,7 +18160,7 @@
             "name": "USDT0",
             "symbol": "USDT0",
             "decimals": 6,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/53705/large/usdt0.jpg?1737086183",
             "extensions": {
                 "coingeckoId": "usdt0"
             }
@@ -18170,7 +18171,7 @@
             "name": "WETH",
             "symbol": "WETH",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x9895d81bb462a195b4922ed7de0e3acd007c32cb.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/2518/large/weth.png?1696503332",
             "extensions": {
                 "coingeckoId": "weth"
             }
@@ -18181,7 +18182,7 @@
             "name": "USDe",
             "symbol": "USDe",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/33613/large/usde.png?1733810059",
             "extensions": {
                 "coingeckoId": "ethena-usde"
             }
@@ -18192,7 +18193,7 @@
             "name": "Staked USDe",
             "symbol": "sUSDe",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/33669/large/sUSDe-Symbol-Color.png?1716307680",
             "extensions": {
                 "coingeckoId": "ethena-staked-usde"
             }
@@ -18203,7 +18204,7 @@
             "name": "Wrapped eETH",
             "symbol": "weETH",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xa3d68b74bf0528fdd07263c60d6488749044914b.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/33033/large/weETH.png?1701438396",
             "extensions": {
                 "coingeckoId": "wrapped-eeth"
             }
@@ -18230,7 +18231,7 @@
             "name": "USDai",
             "symbol": "USDai",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x0a1a1a107e45b7ced86833863f482bc5f4ed82ef.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/55857/large/USDai_Token_Full_Glyph.png?1755229050",
             "extensions": {
                 "coingeckoId": "usdai"
             }
@@ -18241,7 +18242,7 @@
             "name": "Staked USDai",
             "symbol": "sUSDai",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x0b2b2b2076d95dda7817e785989fe353fe955ef9.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/55861/large/sUSDai_Token_Full_Glyph.png?1755229072",
             "extensions": {
                 "coingeckoId": "susdai"
             }
@@ -18276,7 +18277,7 @@
             "name": "rsETHWrapper",
             "symbol": "wrsETH",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xe561fe05c39075312aa9bc6af79ddae981461359.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/37919/large/rseth.png?1715936438",
             "extensions": {
                 "coingeckoId": "wrapped-rseth"
             }
@@ -18335,7 +18336,7 @@
             "name": "Staked Stream USD",
             "symbol": "xUSD",
             "decimals": 6,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x6eaf19b2fc24552925db245f9ff613157a7dbb4c_9745.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/67383/large/xusd.jpg?1752627749",
             "extensions": {
                 "coingeckoId": "staked-stream-usd"
             }
@@ -18410,7 +18411,7 @@
             "name": "Metronome Synth USD",
             "symbol": "msUSD",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x29ad7fe4516909b9e498b5a65339e54791293234.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/67504/large/metronome_msusd.png?1753015705",
             "extensions": {
                 "coingeckoId": "metronome-synth-usd"
             }
@@ -18421,7 +18422,7 @@
             "name": "Staked avUSD",
             "symbol": "savUSD",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xa29420057f3e3b9512d4786df135da1674bd74d4.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/53558/large/token-savusd.png?1736674786",
             "extensions": {
                 "coingeckoId": "avant-staked-usd"
             }
@@ -18536,7 +18537,8 @@
             "decimals": 18,
             "extensions": {
                 "coingeckoId": "balancer"
-            }
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/11683/large/Balancer.png?1696511572"
         },
         {
             "chainId": 34443,
@@ -18622,7 +18624,7 @@
             "name": "uBTC",
             "symbol": "uBTC",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xd0d1b59ca62ce194e882455fd36632d6277b192a.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/7598/large/WBTCLOGO.png?1764496367",
             "extensions": {
                 "coingeckoId": "wrapped-bitcoin"
             }
@@ -18657,7 +18659,7 @@
             "name": "Obelisk BTC",
             "symbol": "oBTC",
             "decimals": 8,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xe3c0ff176ef92fc225096c6d1788ccb818808b35.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/7598/large/WBTCLOGO.png?1764496367",
             "extensions": {
                 "coingeckoId": "wrapped-bitcoin"
             }
@@ -20915,7 +20917,7 @@
             "name": "Staked Stream USD",
             "symbol": "xUSD",
             "decimals": 6,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x6eaf19b2fc24552925db245f9ff613157a7dbb4c_42161.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/67383/large/xusd.jpg?1752627749",
             "extensions": {
                 "coingeckoId": "staked-stream-usd"
             }
@@ -21759,7 +21761,7 @@
             "name": "Wrapped eETH",
             "symbol": "weETH",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xa3d68b74bf0528fdd07263c60d6488749044914b.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/33033/large/weETH.png?1701438396",
             "extensions": {
                 "coingeckoId": "wrapped-eeth"
             }
@@ -21882,7 +21884,7 @@
             "name": "Staked Stream USD",
             "symbol": "xUSD",
             "decimals": 6,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x94f9bb5c972285728dcee7eaece48bec2ff341ce.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/67383/large/xusd.jpg?1752627749",
             "extensions": {
                 "coingeckoId": "staked-stream-usd"
             }
@@ -21951,7 +21953,8 @@
             "decimals": 18,
             "extensions": {
                 "coingeckoId": "balancer"
-            }
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/11683/large/Balancer.png?1696511572"
         },
         {
             "chainId": 11155111,
@@ -21961,7 +21964,8 @@
             "decimals": 18,
             "extensions": {
                 "coingeckoId": "weth"
-            }
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/2518/large/weth.png?1696503332"
         },
         {
             "chainId": 11155111,
@@ -22167,7 +22171,8 @@
             "decimals": 18,
             "extensions": {
                 "coingeckoId": "dai"
-            }
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/9956/large/Badge_Dai.png?1696509996"
         },
         {
             "chainId": 11155111,
@@ -22177,7 +22182,8 @@
             "decimals": 6,
             "extensions": {
                 "coingeckoId": "usd-coin"
-            }
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/6319/large/USDC.png?1769615602"
         },
         {
             "chainId": 11155111,
@@ -22187,7 +22193,8 @@
             "decimals": 6,
             "extensions": {
                 "coingeckoId": "tether"
-            }
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661"
         },
         {
             "chainId": 11155111,
@@ -22197,7 +22204,8 @@
             "decimals": 2,
             "extensions": {
                 "coingeckoId": "stasis-eurs"
-            }
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/5164/large/EURS_300x300.png?1696505680"
         },
         {
             "chainId": 11155111,
@@ -22207,7 +22215,8 @@
             "decimals": 8,
             "extensions": {
                 "coingeckoId": "wrapped-bitcoin"
-            }
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/7598/large/WBTCLOGO.png?1764496367"
         },
         {
             "chainId": 11155111,
@@ -22217,7 +22226,8 @@
             "decimals": 18,
             "extensions": {
                 "coingeckoId": "beethoven-x"
-            }
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/19158/large/beets.png?1735292008"
         },
         {
             "chainId": 11155111,
@@ -22227,7 +22237,8 @@
             "decimals": 6,
             "extensions": {
                 "coingeckoId": "usd-coin"
-            }
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/6319/large/USDC.png?1769615602"
         },
         {
             "chainId": 11155111,
@@ -22251,7 +22262,8 @@
             "decimals": 6,
             "extensions": {
                 "coingeckoId": "usd-coin"
-            }
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/6319/large/USDC.png?1769615602"
         },
         {
             "chainId": 11155111,
@@ -22261,7 +22273,8 @@
             "decimals": 6,
             "extensions": {
                 "coingeckoId": "tether"
-            }
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661"
         },
         {
             "chainId": 11155111,
@@ -22271,7 +22284,8 @@
             "decimals": 18,
             "extensions": {
                 "coingeckoId": "dai"
-            }
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/9956/large/Badge_Dai.png?1696509996"
         },
         {
             "chainId": 11155111,
@@ -22337,7 +22351,8 @@
             "decimals": 8,
             "extensions": {
                 "coingeckoId": "wrapped-bitcoin"
-            }
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/7598/large/WBTCLOGO.png?1764496367"
         }
     ]
 }
