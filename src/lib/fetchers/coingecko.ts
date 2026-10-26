@@ -6,14 +6,12 @@ import config from '../../config'
 
 /**
  * Auth:
- * - COINGECKO_PRO_API_KEY → pro-api.coingecko.com + x_cg_pro_api_key
- * - COINGECKO_DEMO_API_KEY or COINGECKO_API_KEY → api.coingecko.com + x_cg_demo_api_key
+ * - COINGECKO_API_KEY → pro-api.coingecko.com + x_cg_pro_api_key
+ * - COINGECKO_DEMO_API_KEY → api.coingecko.com + x_cg_demo_api_key
  * - none → public api.coingecko.com (stricter rate limits)
  */
-const proApiKey = process.env.COINGECKO_PRO_API_KEY
-const demoApiKey =
-  process.env.COINGECKO_DEMO_API_KEY ||
-  (!proApiKey ? process.env.COINGECKO_API_KEY : undefined)
+const proApiKey = process.env.COINGECKO_API_KEY
+const demoApiKey = !proApiKey ? process.env.COINGECKO_DEMO_API_KEY : undefined
 
 const baseUrl = proApiKey
   ? 'https://pro-api.coingecko.com/api/v3'
