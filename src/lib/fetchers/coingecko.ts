@@ -104,9 +104,7 @@ export async function fetchCoingeckoLogoById(
       return logoURI
     } catch (e) {
       if (attempt === maxAttempts) {
-        console.log(
-          chalk.dim(`Coingecko logo (failed): ${coingeckoId} — ${e}`)
-        )
+        console.log(chalk.dim(`Coingecko logo (failed): ${coingeckoId} — ${e}`))
         // Do not cache transient failures so a later generate can retry.
         return undefined
       }

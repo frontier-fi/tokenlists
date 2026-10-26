@@ -125,7 +125,9 @@ async function build(tokenlistName: string) {
     console.timeEnd(chalk.cyan(`Generated tokens for chain ${network}`))
   }
 
-  console.time(chalk.cyan('Applied CoinGecko logos from coingeckoId overwrites'))
+  console.time(
+    chalk.cyan('Applied CoinGecko logos from coingeckoId overwrites')
+  )
   allTokens = await applyCoingeckoIdLogos(allTokens, overwrites)
   console.timeEnd(
     chalk.cyan('Applied CoinGecko logos from coingeckoId overwrites')
