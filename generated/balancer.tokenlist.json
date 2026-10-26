@@ -3,7 +3,7 @@
     "version": {
         "major": 1,
         "minor": 0,
-        "patch": 559
+        "patch": 560
     },
     "keywords": [
         "Balancer",
@@ -17,7 +17,7 @@
         "Swap"
     ],
     "logoURI": "https://raw.githubusercontent.com/balancer/pebbles/master/images/pebbles-pad.256w.png",
-    "timestamp": "2026-09-04T13:49:25.094Z",
+    "timestamp": "2026-10-26T17:43:20.783Z",
     "tokens": [
         {
             "chainId": 1,
@@ -22224,7 +22224,10 @@
             "address": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
             "name": "USDC",
             "symbol": "USDC",
-            "decimals": 6
+            "decimals": 6,
+            "extensions": {
+                "coingeckoId": "usd-coin"
+            }
         },
         {
             "chainId": 11155111,
