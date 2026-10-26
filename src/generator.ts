@@ -1,10 +1,19 @@
 import 'dotenv/config'
 import { TokenList, TokenInfo } from '@uniswap/token-lists'
-import { Network, PartialTokenInfoMap, TokenListMetadata } from './types'
+import {
+  Network,
+  OverwritesForList,
+  PartialTokenInfoMap,
+  TokenListMetadata,
+} from './types'
 import { fetchOnchainMetadata } from './lib/fetchers/onchain'
 import { fetchExistingMetadata } from './lib/fetchers/existing'
 import { merge } from 'lodash'
-import { fetchCoingeckoMetadata } from './lib/fetchers/coingecko'
+import {
+  fetchCoingeckoLogoById,
+  fetchCoingeckoMetadata,
+  getCachedCoingeckoLogo,
+} from './lib/fetchers/coingecko'
 import fs from 'fs'
 import { getAddress } from 'ethers'
 import chalk from 'chalk'
@@ -46,8 +55,9 @@ async function run() {
 /**
  * Data hierarchy:
  * 1. Existing data, includes overwrites and local images
- * 3. Onchain data
- * 4. Coingecko data (last resort on address my address basis)
+ * 2. Onchain data
+ * 3. If overwrite has extensions.coingeckoId → logo from /coins/{id} (chain-agnostic)
+ * 4. Coingecko contract lookup (last resort by platform + address)
  */
 
 async function build(tokenlistName: string) {
@@ -80,14 +90,17 @@ async function build(tokenlistName: string) {
     try {
       onchainMetadata = await fetchOnchainMetadata(network, tokenAddresses)
     } catch (e) {
-      if (network === Network.Zkevm) {
-        // Use existing ZKEVM token info when onchain ZKEVM errors
-        console.error(e)
-        const zkevmTokenInfo = readTokenInfo(tokenlistName, Number(network))
-        allTokens = allTokens.concat(zkevmTokenInfo)
-        continue
-      }
-      throw e
+      // Fall back to the previously generated list when RPC is unavailable.
+      console.error(e)
+      console.log(
+        chalk.yellow(
+          `Onchain fetch failed for ${network}; reusing existing tokens`
+        )
+      )
+      allTokens = allTokens.concat(
+        readTokenInfo(tokenlistName, Number(network))
+      )
+      continue
     }
     console.timeEnd(chalk.cyan(`Fetched onchain metadata for chain ${network}`))
 
@@ -111,6 +124,12 @@ async function build(tokenlistName: string) {
     allTokens = allTokens.concat(tokenInfo)
     console.timeEnd(chalk.cyan(`Generated tokens for chain ${network}`))
   }
+
+  console.time(chalk.cyan('Applied CoinGecko logos from coingeckoId overwrites'))
+  allTokens = await applyCoingeckoIdLogos(allTokens, overwrites)
+  console.timeEnd(
+    chalk.cyan('Applied CoinGecko logos from coingeckoId overwrites')
+  )
 
   const tokenList = buildTokenList(metadata, allTokens, existingTokenList)
 
@@ -183,6 +202,82 @@ function satisfiesTokenInfoSchema({
   return requiredKeys.every((key) => token?.[key as keyof TokenInfo] != null)
 }
 
+function getCoingeckoId(metadata: Partial<TokenInfo>): string | undefined {
+  const id = metadata.extensions?.coingeckoId
+  return typeof id === 'string' && id.length > 0 ? id : undefined
+}
+
+function findOverwrite(
+  overwrites: OverwritesForList,
+  chainId: number,
+  address: string
+): Partial<TokenInfo> | undefined {
+  const byNetwork = overwrites[String(chainId) as Network]
+  if (!byNetwork) return undefined
+
+  const checksummed = getAddress(address)
+  return (
+    byNetwork[checksummed] ||
+    byNetwork[address] ||
+    byNetwork[address.toLowerCase()] ||
+    Object.entries(byNetwork).find(
+      ([key]) => key.toLowerCase() === address.toLowerCase()
+    )?.[1]
+  )
+}
+
+/**
+ * For every token with a coingeckoId (on the token or in overwrites), set logoURI
+ * from GET /coins/{id}. Image is chain-agnostic — same id → same logo everywhere.
+ */
+async function applyCoingeckoIdLogos(
+  tokens: TokenInfo[],
+  overwrites: OverwritesForList
+): Promise<TokenInfo[]> {
+  // Resolve id per token first, then prefetch unique ids (cached) so rate limits
+  // are paid once per coin, not once per chain deployment.
+  const idsByIndex: (string | undefined)[] = tokens.map((token) => {
+    const overwrite = findOverwrite(overwrites, token.chainId, token.address)
+    return getCoingeckoId(token) || getCoingeckoId(overwrite ?? {})
+  })
+
+  const uniqueIds = [...new Set(idsByIndex.filter(Boolean) as string[])]
+  console.log(
+    chalk.cyan(
+      `Fetching CoinGecko logos for ${uniqueIds.length} unique coingeckoId(s)`
+    )
+  )
+  for (const id of uniqueIds) {
+    await fetchCoingeckoLogoById(id)
+  }
+
+  return tokens.map((token, index) => {
+    const overwrite = findOverwrite(overwrites, token.chainId, token.address)
+    const coingeckoId = idsByIndex[index]
+
+    let next: TokenInfo = token
+
+    if (overwrite?.extensions) {
+      next = {
+        ...next,
+        extensions: {
+          ...(next.extensions ?? {}),
+          ...overwrite.extensions,
+        },
+      }
+    }
+
+    if (coingeckoId) {
+      const logoURI = getCachedCoingeckoLogo(coingeckoId)
+      if (logoURI) {
+        next = { ...next, logoURI }
+      }
+    }
+
+    return next
+  })
+}
+
 async function setTokenInfo(
   address: string,
   network: Network,
@@ -199,6 +294,16 @@ async function setTokenInfo(
 
   if (metadata.decimals) {
     metadata = merge(metadata, { decimals: Number(metadata.decimals) })
+  }
+
+  // When overwrites tag a coingeckoId, prefer that coin's image on every chain
+  // (same asset → same logo; platformId / contract lookup not required).
+  const coingeckoId = getCoingeckoId(metadata)
+  if (coingeckoId) {
+    const logoURI = await fetchCoingeckoLogoById(coingeckoId)
+    if (logoURI) {
+      metadata = { ...metadata, logoURI }
+    }
   }
 
   if (satisfiesTokenInfoSchema({ token: metadata, includeOptionals: true })) {
@@ -227,6 +332,7 @@ function formatMetadata(metadata: Partial<TokenInfo>): TokenInfo {
       symbol: undefined,
       decimals: undefined,
       logoURI: undefined,
+      extensions: undefined,
     },
     metadata
   )
