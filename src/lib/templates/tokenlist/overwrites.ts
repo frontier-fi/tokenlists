@@ -6,5 +6,10 @@ export const overwrites: OverwritesForList = {
   [Network.Arbitrum]: {},
   [Network.Optimism]: {},
   [Network.Gnosis]: {},
-  [Network.Zkevm]: {},
+  [Network.Base]: {},
+  [Network.Avalanche]: {},
+  [Network.Sepolia]: {},
+  [Network.HyperEVM]: {},
+  [Network.Plasma]: {},
+  [Network.Monad]: {},
 }
