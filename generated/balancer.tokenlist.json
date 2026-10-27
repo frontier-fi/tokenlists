@@ -21951,10 +21951,10 @@
             "name": "Balancer Governance Token",
             "symbol": "BAL",
             "decimals": 18,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/11683/large/Balancer.png?1696511572",
             "extensions": {
                 "coingeckoId": "balancer"
-            },
-            "logoURI": "https://coin-images.coingecko.com/coins/images/11683/large/Balancer.png?1696511572"
+            }
         },
         {
             "chainId": 11155111,
@@ -21962,10 +21962,10 @@
             "name": "Wrapped Ether",
             "symbol": "WETH",
             "decimals": 18,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/2518/large/weth.png?1696503332",
             "extensions": {
                 "coingeckoId": "weth"
-            },
-            "logoURI": "https://coin-images.coingecko.com/coins/images/2518/large/weth.png?1696503332"
+            }
         },
         {
             "chainId": 11155111,
@@ -22169,10 +22169,10 @@
             "name": "Dai Stablecoin",
             "symbol": "DAI",
             "decimals": 18,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/9956/large/Badge_Dai.png?1696509996",
             "extensions": {
                 "coingeckoId": "dai"
-            },
-            "logoURI": "https://coin-images.coingecko.com/coins/images/9956/large/Badge_Dai.png?1696509996"
+            }
         },
         {
             "chainId": 11155111,
@@ -22180,10 +22180,10 @@
             "name": "USD Coin",
             "symbol": "USDC",
             "decimals": 6,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/6319/large/USDC.png?1769615602",
             "extensions": {
                 "coingeckoId": "usd-coin"
-            },
-            "logoURI": "https://coin-images.coingecko.com/coins/images/6319/large/USDC.png?1769615602"
+            }
         },
         {
             "chainId": 11155111,
@@ -22191,10 +22191,10 @@
             "name": "Tether USD",
             "symbol": "USDT",
             "decimals": 6,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661",
             "extensions": {
                 "coingeckoId": "tether"
-            },
-            "logoURI": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661"
+            }
         },
         {
             "chainId": 11155111,
@@ -22202,10 +22202,10 @@
             "name": "EURS",
             "symbol": "EURS",
             "decimals": 2,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/5164/large/EURS_300x300.png?1696505680",
             "extensions": {
                 "coingeckoId": "stasis-eurs"
-            },
-            "logoURI": "https://coin-images.coingecko.com/coins/images/5164/large/EURS_300x300.png?1696505680"
+            }
         },
         {
             "chainId": 11155111,
@@ -22213,10 +22213,10 @@
             "name": "Wrapped BTC",
             "symbol": "WBTC",
             "decimals": 8,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/7598/large/WBTCLOGO.png?1764496367",
             "extensions": {
                 "coingeckoId": "wrapped-bitcoin"
-            },
-            "logoURI": "https://coin-images.coingecko.com/coins/images/7598/large/WBTCLOGO.png?1764496367"
+            }
         },
         {
             "chainId": 11155111,
@@ -22224,10 +22224,10 @@
             "name": "BeethovenxToken",
             "symbol": "BEETS",
             "decimals": 18,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/19158/large/beets.png?1735292008",
             "extensions": {
                 "coingeckoId": "beethoven-x"
-            },
-            "logoURI": "https://coin-images.coingecko.com/coins/images/19158/large/beets.png?1735292008"
+            }
         },
         {
             "chainId": 11155111,
@@ -22235,10 +22235,10 @@
             "name": "USDC",
             "symbol": "USDC",
             "decimals": 6,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/6319/large/USDC.png?1769615602",
             "extensions": {
                 "coingeckoId": "usd-coin"
-            },
-            "logoURI": "https://coin-images.coingecko.com/coins/images/6319/large/USDC.png?1769615602"
+            }
         },
         {
             "chainId": 11155111,
@@ -22260,10 +22260,10 @@
             "name": "USDC (AAVE Faucet)",
             "symbol": "usdc-aave",
             "decimals": 6,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/6319/large/USDC.png?1769615602",
             "extensions": {
                 "coingeckoId": "usd-coin"
-            },
-            "logoURI": "https://coin-images.coingecko.com/coins/images/6319/large/USDC.png?1769615602"
+            }
         },
         {
             "chainId": 11155111,
@@ -22271,10 +22271,10 @@
             "name": "USDT (AAVE Faucet)",
             "symbol": "usdt-aave",
             "decimals": 6,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661",
             "extensions": {
                 "coingeckoId": "tether"
-            },
-            "logoURI": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661"
+            }
         },
         {
             "chainId": 11155111,
@@ -22282,10 +22282,10 @@
             "name": "DAI (AAVE Faucet)",
             "symbol": "dai-aave",
             "decimals": 18,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/9956/large/Badge_Dai.png?1696509996",
             "extensions": {
                 "coingeckoId": "dai"
-            },
-            "logoURI": "https://coin-images.coingecko.com/coins/images/9956/large/Badge_Dai.png?1696509996"
+            }
         },
         {
             "chainId": 11155111,
@@ -22349,10 +22349,10 @@
             "name": "WBTC",
             "symbol": "WBTC",
             "decimals": 8,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/7598/large/WBTCLOGO.png?1764496367",
             "extensions": {
                 "coingeckoId": "wrapped-bitcoin"
-            },
-            "logoURI": "https://coin-images.coingecko.com/coins/images/7598/large/WBTCLOGO.png?1764496367"
+            }
         }
     ]
 }
