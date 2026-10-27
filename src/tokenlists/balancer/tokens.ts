@@ -8,13 +8,7 @@ import ethereum from './tokens/ethereum'
 import optimism from './tokens/optimism'
 import polygon from './tokens/polygon'
 import sepolia from './tokens/sepolia'
-import zkevm from './tokens/zkevm'
-import fantom from './tokens/fantom'
-import fraxtal from './tokens/fraxtal'
-import mode from './tokens/mode'
-import sonic from './tokens/sonic'
 import plasma from './tokens/plasma'
-import xlayer from './tokens/xlayer'
 import monad from './tokens/monad'
 
 export const tokens: TokensForList = {
@@ -23,16 +17,10 @@ export const tokens: TokensForList = {
   [Network.Arbitrum]: arbitrum,
   [Network.Optimism]: optimism,
   [Network.Gnosis]: gnosis,
-  [Network.Zkevm]: zkevm,
   [Network.Avalanche]: avalanche,
   [Network.Sepolia]: sepolia,
   [Network.Base]: base,
-  [Network.Fantom]: fantom,
-  [Network.Fraxtal]: fraxtal,
-  [Network.Mode]: mode,
-  [Network.Sonic]: sonic,
   [Network.HyperEVM]: hyperevm,
   [Network.Plasma]: plasma,
-  [Network.XLayer]: xlayer,
   [Network.Monad]: monad,
 }

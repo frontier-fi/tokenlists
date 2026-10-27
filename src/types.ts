@@ -5,18 +5,12 @@ export enum Network {
   Optimism = '10',
   Gnosis = '100',
   Polygon = '137',
-  Zkevm = '1101',
   Base = '8453',
   Arbitrum = '42161',
   HyperEVM = '999',
   Avalanche = '43114',
   Sepolia = '11155111',
-  Fantom = '250',
-  Fraxtal = '252',
-  Mode = '34443',
-  Sonic = '146',
   Plasma = '9745',
-  XLayer = '196',
   Monad = '143',
 }
 

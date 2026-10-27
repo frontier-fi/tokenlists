@@ -10,9 +10,9 @@ import { fetchOnchainMetadata } from './lib/fetchers/onchain'
 import { fetchExistingMetadata } from './lib/fetchers/existing'
 import { merge } from 'lodash'
 import {
-  fetchCoingeckoLogoById,
   fetchCoingeckoMetadata,
   getCachedCoingeckoLogo,
+  prefetchCoingeckoLogos,
 } from './lib/fetchers/coingecko'
 import fs from 'fs'
 import { getAddress } from 'ethers'
@@ -249,9 +249,7 @@ async function applyCoingeckoIdLogos(
       `Fetching CoinGecko logos for ${uniqueIds.length} unique coingeckoId(s)`
     )
   )
-  for (const id of uniqueIds) {
-    await fetchCoingeckoLogoById(id)
-  }
+  await prefetchCoingeckoLogos(uniqueIds)
 
   return tokens.map((token, index) => {
     const overwrite = findOverwrite(overwrites, token.chainId, token.address)
@@ -298,17 +296,9 @@ async function setTokenInfo(
     metadata = merge(metadata, { decimals: Number(metadata.decimals) })
   }
 
-  // When overwrites tag a coingeckoId, prefer that coin's image on every chain
-  // (same asset → same logo; platformId / contract lookup not required).
-  const coingeckoId = getCoingeckoId(metadata)
-  if (coingeckoId) {
-    const logoURI = await fetchCoingeckoLogoById(coingeckoId)
-    if (logoURI) {
-      metadata = { ...metadata, logoURI }
-    }
-  }
-
-  if (satisfiesTokenInfoSchema({ token: metadata, includeOptionals: true })) {
+  // Logo from coingeckoId is applied in bulk by applyCoingeckoIdLogos.
+  // If required fields are present, skip the slow per-address CoinGecko lookup.
+  if (satisfiesTokenInfoSchema({ token: metadata, includeOptionals: false })) {
     return formatMetadata(metadata)
   }
 

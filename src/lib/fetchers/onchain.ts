@@ -22,14 +22,7 @@ export async function fetchOnchainMetadata(
   const provider = getProvider(network)
   const multicaller = new Multicaller({ network, provider })
 
-  let chunks: string[][] = []
-
-  if (network === Network.Zkevm) {
-    // zkevm can only do 195 calls at a time
-    chunks = _.chunk(tokenAddresses, 1)
-  } else {
-    chunks = _.chunk(tokenAddresses, 200)
-  }
+  const chunks = _.chunk(tokenAddresses, 200)
 
   let result: PartialTokenInfoMap = {}
 

@@ -8,13 +8,17 @@ on:
         description: Network
         required: true
         options:
+          - ethereum
+          - optimism
+          - gnosis
+          - polygon
+          - monad
+          - hyperevm
+          - base
+          - plasma
           - arbitrum
           - avalanche
-          - mainnet
-          - gnosis-chain
-          - polygon
-          - optimism
-          - zkevm
+          - sepolia
       tokenAddress:
         type: string
         description: Token Address
