@@ -3,7 +3,7 @@
     "version": {
         "major": 1,
         "minor": 0,
-        "patch": 562
+        "patch": 563
     },
     "keywords": [
         "Balancer",
@@ -17,7 +17,7 @@
         "Swap"
     ],
     "logoURI": "https://raw.githubusercontent.com/balancer/pebbles/master/images/pebbles-pad.256w.png",
-    "timestamp": "2026-10-26T21:25:38.607Z",
+    "timestamp": "2026-10-30T02:31:43.041Z",
     "tokens": [
         {
             "chainId": 1,
@@ -19420,6 +19420,27 @@
             "extensions": {
                 "coingeckoId": "wrapped-bitcoin"
             }
+        },
+        {
+            "chainId": 11155111,
+            "address": "0x131a121bda71ED810bCAf2aC9079214925e59C18",
+            "name": "Static Aave Ethereum WBTC",
+            "symbol": "stataEthWBTC",
+            "decimals": 8
+        },
+        {
+            "chainId": 11155111,
+            "address": "0x72B49a461900e11632C95dfa563e7173438D4e3E",
+            "name": "Static Aave Ethereum EURS",
+            "symbol": "stataEthEURS",
+            "decimals": 2
+        },
+        {
+            "chainId": 11155111,
+            "address": "0x6d906e526a4e2Ca02097BA9d0caA3c382F52278E",
+            "name": "EURS",
+            "symbol": "EURS",
+            "decimals": 2
         }
     ]
 }
