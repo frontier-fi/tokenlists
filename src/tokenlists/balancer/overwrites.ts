@@ -919,6 +919,71 @@ export const overwrites: OverwritesForList = {
         coingeckoId: 'stasis-eurs',
       },
     },
+    '0x6d906e526a4e2Ca02097BA9d0caA3c382F52278E': {
+      extensions: {
+        coingeckoId: 'stasis-eurs',
+      },
+    },
+    '0xf8Fb3713D459D7C1018BD0A49D19b4C44290EBE5': {
+      extensions: {
+        coingeckoId: 'chainlink',
+      },
+    },
+    '0x88541670E55cC00bEEFD87eB59EDd1b7C511AC9a': {
+      extensions: {
+        coingeckoId: 'aave',
+      },
+    },
+    '0x779877A7B0D9E8603169DdbD7836e478b4624789': {
+      extensions: {
+        coingeckoId: 'chainlink',
+      },
+    },
+    '0x8a0E31de20651fe58A369fD6f76c21A8FF7f8d42': {
+      extensions: {
+        coingeckoId: 'chainlink',
+      },
+    },
+    '0xf864F011C5A97fD8Da79baEd78ba77b47112935a': {
+      extensions: {
+        coingeckoId: 'wrapped-bitcoin',
+      },
+    },
+    '0xda9d4f9b69ac6C22e444eD9aF0CfC043b7a7f53f': {
+      extensions: {
+        coingeckoId: 'usd-coin',
+      },
+    },
+    '0x0Bd5F04B456ab34a2aB3e9d556Fe5b3A41A0BC8D': {
+      extensions: {
+        coingeckoId: 'tether',
+      },
+    },
+    '0x68194a729C2450ad26072b3D33ADaCbcef39D574': {
+      extensions: {
+        coingeckoId: 'dai',
+      },
+    },
+    '0x7AF17A48a6336F7dc1beF9D485139f7B6f4FB5C8': {
+      extensions: {
+        coingeckoId: 'dai',
+      },
+    },
+    '0xe20cf465a163c395e7Dde1466Cdd1aBe695B4658': {
+      extensions: {
+        coingeckoId: 'stasis-eurs',
+      },
+    },
+    '0x5bB220Afc6E2e008CB2302a83536A019ED245AA2': {
+      extensions: {
+        coingeckoId: 'aave',
+      },
+    },
+    '0x2978951aD3fD7BaA52DCf7571FE24Ab0895358C8': {
+      extensions: {
+        coingeckoId: 'ethena-usde',
+      },
+    },
     '0x0f409E839a6A790aecB737E4436293Be11717f95': {
       extensions: {
         coingeckoId: 'beethoven-x',
