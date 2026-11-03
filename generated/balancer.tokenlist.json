@@ -3,7 +3,7 @@
     "version": {
         "major": 1,
         "minor": 0,
-        "patch": 563
+        "patch": 564
     },
     "keywords": [
         "Balancer",
@@ -17,7 +17,7 @@
         "Swap"
     ],
     "logoURI": "https://raw.githubusercontent.com/balancer/pebbles/master/images/pebbles-pad.256w.png",
-    "timestamp": "2026-10-30T02:31:43.041Z",
+    "timestamp": "2026-11-03T15:39:30.768Z",
     "tokens": [
         {
             "chainId": 1,
@@ -19441,6 +19441,13 @@
             "name": "EURS",
             "symbol": "EURS",
             "decimals": 2
+        },
+        {
+            "chainId": 11155111,
+            "address": "0x88541670E55cC00bEEFD87eB59EDd1b7C511AC9a",
+            "name": "AAVE",
+            "symbol": "AAVE",
+            "decimals": 18
         }
     ]
 }
