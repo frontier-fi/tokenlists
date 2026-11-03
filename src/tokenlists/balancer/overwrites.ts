@@ -921,8 +921,8 @@ export const overwrites: OverwritesForList = {
     },
     '0x6d906e526a4e2Ca02097BA9d0caA3c382F52278E': {
       extensions: {
-        coingeckoId: 'stasis-eurs'
-      }
+        coingeckoId: 'stasis-eurs',
+      },
     },
     '0xf8Fb3713D459D7C1018BD0A49D19b4C44290EBE5': {
       extensions: {
