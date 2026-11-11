@@ -19018,10 +19018,10 @@
             "name": "Wrapped Ether",
             "symbol": "WETH",
             "decimals": 18,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/2518/large/weth.png?1696503332",
             "extensions": {
                 "coingeckoId": "weth"
-            },
-            "logoURI": "https://coin-images.coingecko.com/coins/images/2518/large/weth.png?1696503332"
+            }
         },
         {
             "chainId": 11155111,
@@ -19128,10 +19128,10 @@
             "name": "LINK (Aave)",
             "symbol": "LINK (Aave)",
             "decimals": 18,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/877/large/Chainlink_Logo_500.png?1760023405",
             "extensions": {
                 "coingeckoId": "chainlink"
-            },
-            "logoURI": "https://coin-images.coingecko.com/coins/images/877/large/Chainlink_Logo_500.png?1760023405"
+            }
         },
         {
             "chainId": 11155111,
