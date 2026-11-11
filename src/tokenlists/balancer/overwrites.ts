@@ -884,39 +884,58 @@ export const overwrites: OverwritesForList = {
     },
   },
   [Network.Sepolia]: {
-    '0xb19382073c7A0aDdbb56Ac6AF1808Fa49e377B75': {
-      extensions: {
-        coingeckoId: 'balancer',
-      },
-    },
-    '0xB77EB1A70A96fDAAeB31DB1b42F2b8b5846b2613': {
-      extensions: {
-        coingeckoId: 'dai',
-      },
-    },
-    '0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9': {
+    '0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14': {
+      name: 'Wrapped Ether',
+      symbol: 'WETH',
       extensions: {
         coingeckoId: 'weth',
       },
     },
-    '0x80D6d3946ed8A1Da4E226aa21CCdDc32bd127d1A': {
+    '0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9': {
+      name: 'Wrapped Ether (0x7b79)',
+      symbol: 'WETH (0x7b79)',
+      extensions: {
+        coingeckoId: 'weth',
+      },
+    },
+    '0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238': {
+      name: 'USD Coin',
+      symbol: 'USDC',
       extensions: {
         coingeckoId: 'usd-coin',
       },
     },
-    '0x1c7d4b196cb0c7b01d743fbc6116a902379c7238': {
+    '0x779877A7B0D9E8603169DdbD7836e478b4624789': {
+      name: 'ChainLink Token',
+      symbol: 'LINK',
+      extensions: {
+        coingeckoId: 'chainlink',
+      },
+    },
+    '0x94a9D9AC8a22534E3FaCa9F4e7F2E2cf85d5E4C8': {
+      name: 'USDC (Aave)',
+      symbol: 'USDC (Aave)',
       extensions: {
         coingeckoId: 'usd-coin',
       },
     },
-    '0x6bF294B80C7d8Dc72DEE762af5d01260B756A051': {
+    '0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357': {
+      name: 'DAI (Aave)',
+      symbol: 'DAI (Aave)',
+      extensions: {
+        coingeckoId: 'dai',
+      },
+    },
+    '0xaA8E23Fb1079EA71e0a56F48a2aA51851D8433D0': {
+      name: 'USDT',
+      symbol: 'USDT',
       extensions: {
         coingeckoId: 'tether',
       },
     },
-    '0x23BAd11F1543503CB1FB5dAd05fdAF93F42d30F3': {
+    '0x29f2D40B0605204364af54EC677bD022dA425d03': {
       extensions: {
-        coingeckoId: 'stasis-eurs',
+        coingeckoId: 'wrapped-bitcoin',
       },
     },
     '0x6d906e526a4e2Ca02097BA9d0caA3c382F52278E': {
@@ -924,100 +943,23 @@ export const overwrites: OverwritesForList = {
         coingeckoId: 'stasis-eurs',
       },
     },
-    '0xf8Fb3713D459D7C1018BD0A49D19b4C44290EBE5': {
-      extensions: {
-        coingeckoId: 'chainlink',
-      },
-    },
     '0x88541670E55cC00bEEFD87eB59EDd1b7C511AC9a': {
       extensions: {
         coingeckoId: 'aave',
       },
     },
-    '0x779877A7B0D9E8603169DdbD7836e478b4624789': {
+    '0xf8Fb3713D459D7C1018BD0A49D19b4C44290EBE5': {
+      name: 'LINK (Aave)',
+      symbol: 'LINK (Aave)',
       extensions: {
         coingeckoId: 'chainlink',
       },
     },
-    '0x8a0E31de20651fe58A369fD6f76c21A8FF7f8d42': {
-      extensions: {
-        coingeckoId: 'chainlink',
-      },
-    },
-    '0xf864F011C5A97fD8Da79baEd78ba77b47112935a': {
-      extensions: {
-        coingeckoId: 'wrapped-bitcoin',
-      },
-    },
-    '0xda9d4f9b69ac6C22e444eD9aF0CfC043b7a7f53f': {
-      extensions: {
-        coingeckoId: 'usd-coin',
-      },
-    },
-    '0x0Bd5F04B456ab34a2aB3e9d556Fe5b3A41A0BC8D': {
-      extensions: {
-        coingeckoId: 'tether',
-      },
-    },
-    '0x68194a729C2450ad26072b3D33ADaCbcef39D574': {
+    '0xB77EB1A70A96fDAAeB31DB1b42F2b8b5846b2613': {
+      name: 'DAI (Faucet)',
+      symbol: 'DAI (Faucet)',
       extensions: {
         coingeckoId: 'dai',
-      },
-    },
-    '0x7AF17A48a6336F7dc1beF9D485139f7B6f4FB5C8': {
-      extensions: {
-        coingeckoId: 'dai',
-      },
-    },
-    '0xe20cf465a163c395e7Dde1466Cdd1aBe695B4658': {
-      extensions: {
-        coingeckoId: 'stasis-eurs',
-      },
-    },
-    '0x5bB220Afc6E2e008CB2302a83536A019ED245AA2': {
-      extensions: {
-        coingeckoId: 'aave',
-      },
-    },
-    '0x2978951aD3fD7BaA52DCf7571FE24Ab0895358C8': {
-      extensions: {
-        coingeckoId: 'ethena-usde',
-      },
-    },
-    '0x0f409E839a6A790aecB737E4436293Be11717f95': {
-      extensions: {
-        coingeckoId: 'beethoven-x',
-      },
-    },
-    '0xC3745bcE4b5D0977dC874832BC99108D416dCe8f': {
-      extensions: {
-        coingeckoId: 'wrapped-bitcoin',
-      },
-    },
-    '0x29f2d40b0605204364af54ec677bd022da425d03': {
-      extensions: {
-        coingeckoId: 'wrapped-bitcoin',
-      },
-    },
-    '0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357': {
-      name: 'DAI (AAVE Faucet)',
-      symbol: 'dai-aave',
-      extensions: {
-        coingeckoId: 'dai',
-      },
-    },
-    '0x94a9D9AC8a22534E3FaCa9F4e7F2E2cf85d5E4C8': {
-      name: 'USDC (AAVE Faucet)',
-      symbol: 'usdc-aave',
-      extensions: {
-        coingeckoId: 'usd-coin',
-      },
-    },
-    '0xaA8E23Fb1079EA71e0a56F48a2aA51851D8433D0': {
-      name: 'USDT (AAVE Faucet)',
-      symbol: 'usdt-aave',
-      extensions: {
-        coingeckoId: 'tether',
       },
     },
   },
