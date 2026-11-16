@@ -810,46 +810,6 @@ export const overwrites: OverwritesForList = {
     },
   },
   [Network.Base]: {
-    '0xE9185Ee218cae427aF7B9764A011bb89FeA761B4': {
-      extensions: {
-        coingeckoId: 'brz',
-      },
-    },
-    '0x1f55a02A049033E3419a8E2975cF3F572F4e6E9A': {
-      extensions: {
-        coingeckoId: 'staked-frax-ether',
-      },
-    },
-    '0x4EA71A20e655794051D1eE8b6e4A3269B13ccaCc': {
-      decimals: 6,
-      symbol: 'AaveUSDC',
-      name: 'Static Aave Base USDC',
-      logoURI:
-        'https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0xe719aef17468c7e10c0c205be62c990754dff7e5.png',
-    },
-    '0x99aC4484e8a1dbd6A185380B3A811913Ac884D87': {
-      logoURI:
-        'https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x83f20f44975d03b1b09e64809b757c47f942beea.png',
-    },
-    '0xecAc9C5F704e954931349Da37F60E39f515c11c1': {
-      extensions: {
-        coingeckoId: 'lombard-staked-btc',
-      },
-    },
-    '0x35e5db674d8e93a03d814fa0ada70731efe8a4b9': {
-      logoURI:
-        'https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x35e5db674d8e93a03d814fa0ada70731efe8a4b9.svg',
-    },
-    '0xF6BD14Bc7D980122aa2E70dFe2d7CF926709A0F4': {
-      extensions: {
-        coingeckoId: 'parifi',
-      },
-    },
-    '0x994ac01750047B9d35431a7Ae4Ed312ee955E030': {
-      extensions: {
-        coingeckoId: 'optimism',
-      },
-    },
     '0x76A9A0062ec6712b99B4f63bD2b4270185759dd5': {
       name: 'USDp',
       logoURI:
@@ -860,26 +820,70 @@ export const overwrites: OverwritesForList = {
       logoURI:
         'https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/sUSDp.svg',
     },
-    '0x7788A3538C5fc7F9c7C8A74EAC4c898fC8d87d92': {
-      extensions: {
-        coingeckoId: 'usdx-money-staked-usdx',
-      },
-    },
-    '0xf3527ef8dE265eAa3716FB312c12847bFBA66Cef': {
-      extensions: {
-        coingeckoId: 'usdx-money-usdx',
-      },
-    },
-    '0xd09acb80c1e8f2291862c4978a008791c9167003': {
-      extensions: {
-        coingeckoId: 'treehouse-eth',
-      },
-    },
     '0xe5020a6d073a794b6e7f05678707de47986fb0b6': {
       name: 'Frax USD',
       symbol: 'frxUSD',
+    },
+    '0xe298b938631f750DD409fB18227C4a23dCdaab9b': {
       extensions: {
-        coingeckoId: 'frax-usd',
+        coingeckoId: null,
+      },
+    },
+    '0xC768c589647798a6EE01A91FdE98EF2ed046DBD6': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x74D4D1D440c9679b1013999Bd91507eAa2fff651': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x729F75Aff28c726e32403e80cef2aFb518CFbfa7': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x88b1Cd4b430D95b406E382C3cDBaE54697a0286E': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0xFA2A03b6f4A65fB1Af64f7d935fDBf78693df9aF': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x5e8B674127B321DC344c078e58BBACc3f3008962': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x0830820D1A9aa1554364752d6D8F55C836871B74': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x6acD0a165fD70A84b6b50d955ff3628700bAAf4b': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0xF8F10f39116716e89498c1c5E94137ADa11b2BC7': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x7BfA7C4f149E7415b73bdeDfe609237e29CBF34A': {
+      logoURI:
+        'https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0xa5269a8e31b93ff27b887b56720a25f844db0529.png',
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x9272D6153133175175Bc276512B2336BE3931CE9': {
+      extensions: {
+        coingeckoId: null,
       },
     },
   },
@@ -953,6 +957,55 @@ export const overwrites: OverwritesForList = {
       symbol: 'LINK (Aave)',
       extensions: {
         coingeckoId: 'chainlink',
+      },
+    },
+    '0x8A88124522dbBF1E56352ba3DE1d9F78C143751e': {
+      logoURI:
+        'https://coin-images.coingecko.com/coins/images/32847/large/usdc_%281%29.png?1699619355',
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0xDE46e43F46ff74A23a65EBb0580cbe3dFE684a17': {
+      logoURI:
+        'https://coin-images.coingecko.com/coins/images/32886/large/dai.png?1699769446',
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x978206fAe13faF5a8d293FB614326B237684B750': {
+      logoURI:
+        'https://coin-images.coingecko.com/coins/images/32884/large/USDT.PNG?1699768611',
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x131a121bda71ED810bCAf2aC9079214925e59C18': {
+      logoURI:
+        'https://coin-images.coingecko.com/coins/images/32883/large/wbtc.png?1699719908',
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x72B49a461900e11632C95dfa563e7173438D4e3E': {
+      logoURI:
+        'https://coin-images.coingecko.com/coins/images/32913/large/eurs.png?1699824583',
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x56771cEF0cb422e125564CcCC98BB05fdc718E77': {
+      logoURI:
+        'https://coin-images.coingecko.com/coins/images/32887/large/aave.png?1699773604',
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x8227a989709a757f25dF251C3C3e71CA38627836': {
+      logoURI:
+        'https://coin-images.coingecko.com/coins/images/32888/large/link.png?1699773900',
+      extensions: {
+        coingeckoId: null,
       },
     },
     '0xB77EB1A70A96fDAAeB31DB1b42F2b8b5846b2613': {

@@ -236,9 +236,12 @@ async function applyCoingeckoIdLogos(
   tokens: TokenInfo[],
   overwrites: OverwritesForList
 ): Promise<TokenInfo[]> {
+  const regeneratedChains = new Set<number>(NETWORKS_TO_REGENERATE.map(Number))
+
   // Resolve id per token first, then prefetch unique ids (cached) so rate limits
   // are paid once per coin, not once per chain deployment.
   const idsByIndex: (string | undefined)[] = tokens.map((token) => {
+    if (!regeneratedChains.has(token.chainId)) return undefined
     const overwrite = findOverwrite(overwrites, token.chainId, token.address)
     return getCoingeckoId(token) || getCoingeckoId(overwrite ?? {})
   })
@@ -252,6 +255,8 @@ async function applyCoingeckoIdLogos(
   await prefetchCoingeckoLogos(uniqueIds)
 
   return tokens.map((token, index) => {
+    if (!regeneratedChains.has(token.chainId)) return token
+
     const overwrite = findOverwrite(overwrites, token.chainId, token.address)
     const coingeckoId = idsByIndex[index]
 
