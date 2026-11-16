@@ -45,7 +45,7 @@ async function fetchTrustWalletMetadata(
 }
 
 type TokenIconInfo = Pick<TokenInfo, 'address' | 'logoURI'>
-function fetchLocalTokenIcons(network: Network): PartialTokenInfoMap {
+export function fetchLocalTokenIcons(network: Network): PartialTokenInfoMap {
   const tokenIcons: TokenIconInfo[] = []
 
   const localImages: string[] = fs.readdirSync('src/assets/images/tokens')
@@ -67,7 +67,7 @@ function fetchLocalTokenIcons(network: Network): PartialTokenInfoMap {
     tokenIcons.push({
       address: getAddress(address),
       // eslint-disable-next-line max-len
-      logoURI: `https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/${fileName.toLowerCase()}.png`,
+      logoURI: `https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/${fileName.toLowerCase()}.png`,
     })
   })
 
