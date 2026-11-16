@@ -1,8 +1,8 @@
 export const metadata = {
-  name: 'Balancer',
+  name: 'Frontier',
   version: { major: 1, minor: 0, patch: 0 },
   keywords: [
-    'Balancer',
+    'Frontier',
     'DeFi',
     'DEX',
     'AMM',
@@ -12,7 +12,4 @@ export const metadata = {
     'Token',
     'Swap',
   ],
-  logoURI:
-    // eslint-disable-next-line max-len
-    'https://raw.githubusercontent.com/balancer/pebbles/master/images/pebbles-pad.256w.png',
 }
