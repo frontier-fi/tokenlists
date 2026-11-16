@@ -3,7 +3,7 @@
     "version": {
         "major": 1,
         "minor": 0,
-        "patch": 567
+        "patch": 568
     },
     "keywords": [
         "Frontier",
@@ -16,7 +16,7 @@
         "Token",
         "Swap"
     ],
-    "timestamp": "2026-11-16T19:27:11.172Z",
+    "timestamp": "2026-11-16T19:53:04.753Z",
     "tokens": [
         {
             "chainId": 1,
@@ -14148,6 +14148,39 @@
             "logoURI": "https://coin-images.coingecko.com/coins/images/34753/large/Ezeth_logo_circle.png?1713496404",
             "extensions": {
                 "coingeckoId": "renzo-restaked-eth"
+            }
+        },
+        {
+            "chainId": 8453,
+            "address": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
+            "name": "Dai Stablecoin",
+            "symbol": "DAI",
+            "decimals": 18,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/9956/large/Badge_Dai.png?1696509996",
+            "extensions": {
+                "coingeckoId": "dai"
+            }
+        },
+        {
+            "chainId": 8453,
+            "address": "0xB6fe221Fe9EeF5aBa221c348bA20A1Bf5e73624c",
+            "name": "Rocket Pool ETH",
+            "symbol": "rETH",
+            "decimals": 18,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/20764/large/reth.png?1696520159",
+            "extensions": {
+                "coingeckoId": "rocket-pool-eth"
+            }
+        },
+        {
+            "chainId": 8453,
+            "address": "0xd09ACb80C1E8f2291862c4978A008791c9167003",
+            "name": "Treehouse ETH",
+            "symbol": "tETH",
+            "decimals": 18,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/40155/large/tETH_Logo_%28Color__No_Background%29.png?1748368386",
+            "extensions": {
+                "coingeckoId": "treehouse-eth"
             }
         },
         {

@@ -19,7 +19,7 @@ const CURATED_NETWORKS: Array<{
   {
     network: Network.Base,
     file: 'base.ts',
-    expectedTotal: 28,
+    expectedTotal: 31,
     expectedWrappers: 17,
   },
   {

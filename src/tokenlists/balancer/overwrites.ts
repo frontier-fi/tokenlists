@@ -865,6 +865,21 @@ export const overwrites: OverwritesForList = {
         coingeckoId: 'renzo-restaked-eth',
       },
     },
+    '0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb': {
+      extensions: {
+        coingeckoId: 'dai',
+      },
+    },
+    '0xB6fe221Fe9EeF5aBa221c348bA20A1Bf5e73624c': {
+      extensions: {
+        coingeckoId: 'rocket-pool-eth',
+      },
+    },
+    '0xd09ACb80C1E8f2291862c4978A008791c9167003': {
+      extensions: {
+        coingeckoId: 'treehouse-eth',
+      },
+    },
     '0xe298b938631f750DD409fB18227C4a23dCdaab9b': {
       extensions: {
         coingeckoId: null,
