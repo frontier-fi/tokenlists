@@ -32,9 +32,79 @@ export const overwrites: OverwritesForList = {
         coingeckoId: 'gho',
       },
     },
+    '0x6c3ea9036406852006290770BEdFcAbA0e23A0e8': {
+      extensions: {
+        coingeckoId: 'paypal-usd',
+      },
+    },
+    '0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD': {
+      extensions: {
+        coingeckoId: 'ripple-usd',
+      },
+    },
+    '0xC139190F447e929f090Edeb554D95AbB8b18aC1C': {
+      extensions: {
+        coingeckoId: 'usdtb',
+      },
+    },
+    '0xe343167631d89B6Ffc58B88d6b7fB0228795491D': {
+      extensions: {
+        coingeckoId: 'global-dollar',
+      },
+    },
+    '0x48f9e38f3070AD8945DFEae3FA70987722E3D89c': {
+      extensions: {
+        coingeckoId: 'infinifi-usd',
+      },
+    },
     '0x6440f144b7e50D6a8439336510312d2F54beB01D': {
       extensions: {
-        coingeckoId: 'liquity-bold',
+        coingeckoId: 'liquity-bold-2',
+      },
+    },
+    '0xcCcc62962d17b8914c62D74FfB843d73B2a3cccC': {
+      extensions: {
+        coingeckoId: 'cap-usd',
+      },
+    },
+    '0x4f8e5DE400DE08B164E7421B3EE387f461beCD1A': {
+      extensions: {
+        coingeckoId: 'usdd',
+      },
+    },
+    '0xFa2B947eEc368f42195f24F36d2aF29f7c24CeC2': {
+      extensions: {
+        coingeckoId: 'falcon-finance',
+      },
+    },
+    '0x865377367054516e17014CcdED1e7d814EDC9ce4': {
+      extensions: {
+        coingeckoId: 'dola-usd',
+      },
+    },
+    '0x41D5D79431A913C4aE7d69a668ecdfE5fF9DFB68': {
+      extensions: {
+        coingeckoId: 'inverse-finance',
+      },
+    },
+    '0xdC035D45d973E3EC169d2276DDab16f1e407384F': {
+      extensions: {
+        coingeckoId: 'usds',
+      },
+    },
+    '0xB58E61C3098d85632Df34EecfB899A1Ed80921cB': {
+      extensions: {
+        coingeckoId: 'frankencoin',
+      },
+    },
+    '0xB1c2Db5d6cA03FCe73dBd304d320bF76C55Ae1B1': {
+      extensions: {
+        coingeckoId: 'tangent-usg',
+      },
+    },
+    '0x6aD038cA6C04e885630851278ca0a856Ad9a66Cc': {
+      extensions: {
+        coingeckoId: 'hastra-wrapped-ylds',
       },
     },
     '0x6B175474E89094C44Da98b954EedeAC495271d0F': {
@@ -72,9 +142,24 @@ export const overwrites: OverwritesForList = {
         coingeckoId: 'renzo-restaked-eth',
       },
     },
+    '0xf1C9acDc66974dFB6dEcB12aA385b9cD01190E38': {
+      extensions: {
+        coingeckoId: 'stakewise-v3-oseth',
+      },
+    },
     '0xD11c452fc99cF405034ee446803b6F6c1F6d5ED8': {
       extensions: {
         coingeckoId: 'treehouse-eth',
+      },
+    },
+    '0xA35b1B31Ce002FBF2058D22F30f95D405200A15b': {
+      extensions: {
+        coingeckoId: 'stader-ethx',
+      },
+    },
+    '0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7': {
+      extensions: {
+        coingeckoId: 'kelp-dao-restaked-eth',
       },
     },
     '0x4c9EDD5852cd905f086C759E8383e09bff1E68B3': {
@@ -92,6 +177,11 @@ export const overwrites: OverwritesForList = {
         coingeckoId: 'resolv-usr',
       },
     },
+    '0x83F20F44975D03b1b09e64809B757c47f942BEeA': {
+      extensions: {
+        coingeckoId: 'savings-dai',
+      },
+    },
     '0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9': {
       logoURI:
         'https://assets.coingecko.com/coins/images/12645/standard/aave-token-round.png?1720472354',
@@ -107,6 +197,11 @@ export const overwrites: OverwritesForList = {
     '0x58D97B57BB95320F9a05dC918Aef65434969c2B2': {
       extensions: {
         coingeckoId: 'morpho',
+      },
+    },
+    '0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32': {
+      extensions: {
+        coingeckoId: 'lido-dao',
       },
     },
     '0x0bfc9d54Fc184518A81162F8fB99c2eACa081202': {
@@ -193,11 +288,6 @@ export const overwrites: OverwritesForList = {
       },
     },
     '0x7204B7Dbf9412567835633B6F00C3Edc3a8D6330': {
-      extensions: {
-        coingeckoId: null,
-      },
-    },
-    '0xbEeFc011e94f43b8B7b455eBaB290C7Ab4E216f1': {
       extensions: {
         coingeckoId: null,
       },

@@ -3,7 +3,7 @@
     "version": {
         "major": 1,
         "minor": 0,
-        "patch": 570
+        "patch": 571
     },
     "keywords": [
         "Frontier",
@@ -16,7 +16,7 @@
         "Token",
         "Swap"
     ],
-    "timestamp": "2026-11-19T04:04:14.996Z",
+    "timestamp": "2026-11-19T14:46:55.541Z",
     "tokens": [
         {
             "chainId": 1,
@@ -79,7 +79,10 @@
             "name": "PayPal USD",
             "symbol": "PYUSD",
             "decimals": 6,
-            "logoURI": "https://assets.coingecko.com/coins/images/31212/large/PYUSD_Logo_%282%29.png?1696530039"
+            "logoURI": "https://assets.coingecko.com/coins/images/31212/large/PYUSD_Logo_%282%29.png?1696530039",
+            "extensions": {
+                "coingeckoId": "paypal-usd"
+            }
         },
         {
             "chainId": 1,
@@ -87,7 +90,10 @@
             "name": "RLUSD",
             "symbol": "RLUSD",
             "decimals": 18,
-            "logoURI": "https://coin-images.coingecko.com/coins/images/39651/large/RLUSD_200x200_%281%29.png?1727376633"
+            "logoURI": "https://coin-images.coingecko.com/coins/images/39651/large/RLUSD_200x200_%281%29.png?1727376633",
+            "extensions": {
+                "coingeckoId": "ripple-usd"
+            }
         },
         {
             "chainId": 1,
@@ -95,7 +101,10 @@
             "name": "USDtb",
             "symbol": "USDtb",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0xc139190f447e929f090edeb554d95abb8b18ac1c.png"
+            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0xc139190f447e929f090edeb554d95abb8b18ac1c.png",
+            "extensions": {
+                "coingeckoId": "usdtb"
+            }
         },
         {
             "chainId": 1,
@@ -103,15 +112,10 @@
             "name": "Global Dollar",
             "symbol": "USDG",
             "decimals": 6,
-            "logoURI": "https://coin-images.coingecko.com/coins/images/51281/large/GDN_USDG_Token_200x200.png?1730484111"
-        },
-        {
-            "chainId": 1,
-            "address": "0x7751E2F4b8ae93EF6B79d86419d42FE3295A4559",
-            "name": "Wrapped USDL",
-            "symbol": "wUSDL",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0x7751e2f4b8ae93ef6b79d86419d42fe3295a4559.png"
+            "logoURI": "https://coin-images.coingecko.com/coins/images/51281/large/GDN_USDG_Token_200x200.png?1730484111",
+            "extensions": {
+                "coingeckoId": "global-dollar"
+            }
         },
         {
             "chainId": 1,
@@ -119,7 +123,10 @@
             "name": "infiniFi USD",
             "symbol": "iUSD",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0x48f9e38f3070ad8945dfeae3fa70987722e3d89c.png"
+            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0x48f9e38f3070ad8945dfeae3fa70987722e3d89c.png",
+            "extensions": {
+                "coingeckoId": "infinifi-usd"
+            }
         },
         {
             "chainId": 1,
@@ -129,7 +136,7 @@
             "decimals": 18,
             "logoURI": "https://coin-images.coingecko.com/coins/images/56069/large/BOLD_logo.png?1748265087",
             "extensions": {
-                "coingeckoId": "liquity-bold"
+                "coingeckoId": "liquity-bold-2"
             }
         },
         {
@@ -138,7 +145,10 @@
             "name": "cap USD",
             "symbol": "cUSD",
             "decimals": 18,
-            "logoURI": "https://coin-images.coingecko.com/coins/images/68272/large/cUSD_ab_500%C3%97500.png?1755232868"
+            "logoURI": "https://coin-images.coingecko.com/coins/images/68272/large/cUSD_ab_500%C3%97500.png?1755232868",
+            "extensions": {
+                "coingeckoId": "cap-usd"
+            }
         },
         {
             "chainId": 1,
@@ -146,7 +156,10 @@
             "name": "Usdd Stablecoin",
             "symbol": "USDD",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0x4f8e5de400de08b164e7421b3ee387f461becd1a.png"
+            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0x4f8e5de400de08b164e7421b3ee387f461becd1a.png",
+            "extensions": {
+                "coingeckoId": "usdd"
+            }
         },
         {
             "chainId": 1,
@@ -154,7 +167,10 @@
             "name": "Falcon USD",
             "symbol": "USDf",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0xfa2b947eec368f42195f24f36d2af29f7c24cec2.png"
+            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0xfa2b947eec368f42195f24f36d2af29f7c24cec2.png",
+            "extensions": {
+                "coingeckoId": "falcon-finance"
+            }
         },
         {
             "chainId": 1,
@@ -162,7 +178,10 @@
             "name": "Dola USD Stablecoin",
             "symbol": "DOLA",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0x865377367054516e17014ccded1e7d814edc9ce4.png"
+            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0x865377367054516e17014ccded1e7d814edc9ce4.png",
+            "extensions": {
+                "coingeckoId": "dola-usd"
+            }
         },
         {
             "chainId": 1,
@@ -170,7 +189,10 @@
             "name": "Inverse DAO",
             "symbol": "INV",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0x41d5d79431a913c4ae7d69a668ecdfe5ff9dfb68.png"
+            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0x41d5d79431a913c4ae7d69a668ecdfe5ff9dfb68.png",
+            "extensions": {
+                "coingeckoId": "inverse-finance"
+            }
         },
         {
             "chainId": 1,
@@ -178,7 +200,10 @@
             "name": "USDS Stablecoin",
             "symbol": "USDS",
             "decimals": 18,
-            "logoURI": "https://coin-images.coingecko.com/coins/images/39926/large/usds.webp?1726666683"
+            "logoURI": "https://coin-images.coingecko.com/coins/images/39926/large/usds.webp?1726666683",
+            "extensions": {
+                "coingeckoId": "usds"
+            }
         },
         {
             "chainId": 1,
@@ -186,7 +211,10 @@
             "name": "Frankencoin",
             "symbol": "ZCHF",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0xb58e61c3098d85632df34eecfb899a1ed80921cb.png"
+            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0xb58e61c3098d85632df34eecfb899a1ed80921cb.png",
+            "extensions": {
+                "coingeckoId": "frankencoin"
+            }
         },
         {
             "chainId": 1,
@@ -194,7 +222,10 @@
             "name": "Tangent USD",
             "symbol": "USG",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0xb1c2db5d6ca03fce73dbd304d320bf76c55ae1b1.png"
+            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0xb1c2db5d6ca03fce73dbd304d320bf76c55ae1b1.png",
+            "extensions": {
+                "coingeckoId": "tangent-usg"
+            }
         },
         {
             "chainId": 1,
@@ -202,7 +233,10 @@
             "name": "Hastra wYLDS",
             "symbol": "wYLDS",
             "decimals": 6,
-            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0x6ad038ca6c04e885630851278ca0a856ad9a66cc.png"
+            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0x6ad038ca6c04e885630851278ca0a856ad9a66cc.png",
+            "extensions": {
+                "coingeckoId": "hastra-wrapped-ylds"
+            }
         },
         {
             "chainId": 1,
@@ -287,7 +321,10 @@
             "name": "Staked ETH",
             "symbol": "osETH",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0xf1c9acdc66974dfb6decb12aa385b9cd01190e38.png"
+            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0xf1c9acdc66974dfb6decb12aa385b9cd01190e38.png",
+            "extensions": {
+                "coingeckoId": "stakewise-v3-oseth"
+            }
         },
         {
             "chainId": 1,
@@ -306,7 +343,10 @@
             "name": "ETHx",
             "symbol": "ETHx",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0xa35b1b31ce002fbf2058d22f30f95d405200a15b.png"
+            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0xa35b1b31ce002fbf2058d22f30f95d405200a15b.png",
+            "extensions": {
+                "coingeckoId": "stader-ethx"
+            }
         },
         {
             "chainId": 1,
@@ -314,7 +354,10 @@
             "name": "rsETH",
             "symbol": "rsETH",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0xa1290d69c65a6fe4df752f95823fae25cb99e5a7.png"
+            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0xa1290d69c65a6fe4df752f95823fae25cb99e5a7.png",
+            "extensions": {
+                "coingeckoId": "kelp-dao-restaked-eth"
+            }
         },
         {
             "chainId": 1,
@@ -355,7 +398,10 @@
             "name": "Savings Dai",
             "symbol": "sDAI",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0x83f20f44975d03b1b09e64809b757c47f942beea.png"
+            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0x83f20f44975d03b1b09e64809b757c47f942beea.png",
+            "extensions": {
+                "coingeckoId": "savings-dai"
+            }
         },
         {
             "chainId": 1,
@@ -396,7 +442,10 @@
             "name": "Lido DAO Token",
             "symbol": "LDO",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0x5a98fcbea516cf06857215779fd812ca3bef1b32.png"
+            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0x5a98fcbea516cf06857215779fd812ca3bef1b32.png",
+            "extensions": {
+                "coingeckoId": "lido-dao"
+            }
         },
         {
             "chainId": 1,
@@ -570,17 +619,6 @@
             "symbol": "csUSDC",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0x7204b7dbf9412567835633b6f00c3edc3a8d6330.png",
-            "extensions": {
-                "coingeckoId": null
-            }
-        },
-        {
-            "chainId": 1,
-            "address": "0xbEeFc011e94f43b8B7b455eBaB290C7Ab4E216f1",
-            "name": "Coinshift USDL",
-            "symbol": "csUSDL",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/frontier-fi/tokenlists/main/src/assets/images/tokens/0xbeefc011e94f43b8b7b455ebab290c7ab4e216f1.png",
             "extensions": {
                 "coingeckoId": null
             }
