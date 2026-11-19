@@ -7,4 +7,8 @@ import { Network } from '../types'
  * To enable another chain in a PR, append its `Network.*` member here, e.g.:
  *   [Network.Sepolia, Network.Ethereum]
  */
-export const NETWORKS_TO_REGENERATE: Network[] = [Network.Sepolia, Network.Base]
+export const NETWORKS_TO_REGENERATE: Network[] = [
+  Network.Sepolia,
+  Network.Base,
+  Network.Ethereum,
+]

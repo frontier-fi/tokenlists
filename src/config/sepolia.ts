@@ -2,7 +2,7 @@ import { drpcRpc } from './drpc'
 
 export default {
   name: 'sepolia',
-  rpc: drpcRpc('sepolia') ?? 'https://ethereum-sepolia-rpc.publicnode.com',
+  rpc: drpcRpc('sepolia') ?? 'https://sepolia.gateway.tenderly.co',
   coingecko: {
     platformId: 'sepolia',
   },
