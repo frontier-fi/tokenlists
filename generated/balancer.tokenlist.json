@@ -3,7 +3,7 @@
     "version": {
         "major": 1,
         "minor": 0,
-        "patch": 568
+        "patch": 569
     },
     "keywords": [
         "Frontier",
@@ -16,7 +16,7 @@
         "Token",
         "Swap"
     ],
-    "timestamp": "2026-11-16T19:53:04.753Z",
+    "timestamp": "2026-11-19T03:12:42.870Z",
     "tokens": [
         {
             "chainId": 1,
@@ -14119,6 +14119,17 @@
         },
         {
             "chainId": 8453,
+            "address": "0xcb585250f852C6c6bf90434AB21A00f02833a4af",
+            "name": "Coinbase Wrapped XRP",
+            "symbol": "cbXRP",
+            "decimals": 6,
+            "extensions": {
+                "coingeckoId": "coinbase-wrapped-xrp"
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/66267/large/Coinbase_Wrapped_XPR_%28cbXRP%29.png?1749023398"
+        },
+        {
+            "chainId": 8453,
             "address": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
             "name": "Wrapped liquid staked Ether 2.0",
             "symbol": "wstETH",
@@ -14182,6 +14193,160 @@
             "extensions": {
                 "coingeckoId": "treehouse-eth"
             }
+        },
+        {
+            "chainId": 8453,
+            "address": "0xacfE6019Ed1A7Dc6f7B508C02d1b04ec88cC21bf",
+            "name": "Venice Token",
+            "symbol": "VVV",
+            "decimals": 18,
+            "extensions": {
+                "coingeckoId": "venice-token"
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/54023/large/VVV_Token_Transparent.png?1741856877"
+        },
+        {
+            "chainId": 8453,
+            "address": "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+            "name": "Aerodrome",
+            "symbol": "AERO",
+            "decimals": 18,
+            "extensions": {
+                "coingeckoId": "aerodrome-finance"
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/31745/large/token.png?1696530564"
+        },
+        {
+            "chainId": 8453,
+            "address": "0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b",
+            "name": "Virtual Protocol",
+            "symbol": "VIRTUAL",
+            "decimals": 18,
+            "extensions": {
+                "coingeckoId": "virtual-protocol"
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/34057/large/LOGOMARK.png?1708356054"
+        },
+        {
+            "chainId": 8453,
+            "address": "0xBAa5CC21fd487B8Fcc2F632f3F4E8D37262a0842",
+            "name": "Morpho Token",
+            "symbol": "MORPHO",
+            "decimals": 18,
+            "extensions": {
+                "coingeckoId": "morpho"
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/29837/large/Morpho-token-icon.png?1726771230"
+        },
+        {
+            "chainId": 8453,
+            "address": "0x63706e401c06ac8513145b7687A14804d17f814b",
+            "name": "Aave Token",
+            "symbol": "AAVE",
+            "decimals": 18,
+            "extensions": {
+                "coingeckoId": "aave"
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/12645/large/aave-token-round.png?1720472354"
+        },
+        {
+            "chainId": 8453,
+            "address": "0x88Fb150BDc53A65fe94Dea0c9BA0a6dAf8C6e196",
+            "name": "ChainLink Token",
+            "symbol": "LINK",
+            "decimals": 18,
+            "extensions": {
+                "coingeckoId": "chainlink"
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/877/large/Chainlink_Logo_500.png?1760023405"
+        },
+        {
+            "chainId": 8453,
+            "address": "0x311935Cd80B76769bF2ecC9D8Ab7635b2139cf82",
+            "name": "Solana",
+            "symbol": "SOL",
+            "decimals": 9,
+            "extensions": {
+                "coingeckoId": "solana"
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/4128/large/solana.png?1718769756"
+        },
+        {
+            "chainId": 8453,
+            "address": "0xb2000000000000000000008bC8786B856E61707C",
+            "name": "Meta Platforms Inc.",
+            "symbol": "METAc",
+            "decimals": 8,
+            "extensions": {
+                "coingeckoId": "meta-coinbase-tokenized-stock"
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102175599/large/meta_200x200.png?1787068803"
+        },
+        {
+            "chainId": 8453,
+            "address": "0xb20000000000000000000078ee7ce2fE4908108C",
+            "name": "NVIDIA Corporation",
+            "symbol": "NVDAc",
+            "decimals": 8,
+            "extensions": {
+                "coingeckoId": "nvidia-coinbase-tokenized-stock"
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102175596/large/nvda_200x200.png?1787068801"
+        },
+        {
+            "chainId": 8453,
+            "address": "0xb2000000000000000000002D0BA3164cc74f58B7",
+            "name": "Alphabet Inc.",
+            "symbol": "GOOGLc",
+            "decimals": 8,
+            "extensions": {
+                "coingeckoId": "alphabet-coinbase-tokenized-stock"
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102175598/large/goog_200x200.png?1787068802"
+        },
+        {
+            "chainId": 8453,
+            "address": "0xb200000000000000000000d9192b6B456483C2E8",
+            "name": "Amazon.com Inc.",
+            "symbol": "AMZNc",
+            "decimals": 8,
+            "extensions": {
+                "coingeckoId": "amazon-coinbase-tokenized-stock"
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102178280/large/amzn-200.png?1789233782"
+        },
+        {
+            "chainId": 8453,
+            "address": "0xB200000000000000000000Ab99cFa739E253872B",
+            "name": "Microsoft Corporation",
+            "symbol": "MSFTc",
+            "decimals": 8,
+            "extensions": {
+                "coingeckoId": "microsoft-coinbase-tokenized-stock"
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102178281/large/msft-200.png?1789233933"
+        },
+        {
+            "chainId": 8453,
+            "address": "0xb2000000000000000000001e800a7f5189430cD0",
+            "name": "Tesla Inc.",
+            "symbol": "TSLAc",
+            "decimals": 8,
+            "extensions": {
+                "coingeckoId": "tesla-coinbase-tokenized-stocks"
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102178285/large/tsla-200.png?1789234081"
+        },
+        {
+            "chainId": 8453,
+            "address": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+            "name": "Apple Inc.",
+            "symbol": "AAPLc",
+            "decimals": 8,
+            "extensions": {
+                "coingeckoId": "apple-coinbase-tokenized-stock"
+            },
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102175597/large/aapl_200x200.png?1787068801"
         },
         {
             "chainId": 8453,
