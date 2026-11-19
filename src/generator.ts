@@ -279,7 +279,10 @@ async function applyCoingeckoIdLogos(
       }
     }
 
-    return next
+    // Re-apply the canonical key order: spreading in a logoURI the token did
+    // not have yet appends it after `extensions`, which flips on the next run
+    // once the logo comes from the existing list (a no-op regenerate PR).
+    return formatMetadata(next)
   })
 }
 
