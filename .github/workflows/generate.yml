@@ -6,6 +6,11 @@ on:
   push:
     branches:
       - main
+    # Merging the bot's own update-tokenlists PR pushes to main with the App
+    # token, which (unlike GITHUB_TOKEN) starts workflows. Skip pushes that only
+    # touch generated output so a regenerate can't trigger another regenerate.
+    paths-ignore:
+      - 'generated/**'
 
 permissions:
   contents: read

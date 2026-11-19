@@ -890,9 +890,9 @@ export const overwrites: OverwritesForList = {
         coingeckoId: 'venice-token',
       },
     },
-    '0x940181a94A35A4569E4529A3CDfB74e38FD98631': {
+    '0x3f5bF3EdAc59d650D8fDf9657a71F2f904A3a4Ee': {
       extensions: {
-        coingeckoId: 'aerodrome-finance',
+        coingeckoId: 'aero',
       },
     },
     '0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b': {

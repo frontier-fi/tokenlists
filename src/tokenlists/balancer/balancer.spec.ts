@@ -152,27 +152,39 @@ describe('Frontier tokenlist curation', () => {
     expect(generatedList.keywords).not.toContain('Balancer')
     expect(generatedList.logoURI).toBeUndefined()
 
-    for (const { network, expectedWrappers } of CURATED_NETWORKS) {
-      const chainTokens = generatedList.tokens.filter(
-        (t) => t.chainId === Number(network)
+    for (const { network } of CURATED_NETWORKS) {
+      const allowlisted = new Set(tokens[network].map((a) => getAddress(a)))
+      const wrapperOverwrites = new Set(
+        Object.entries(overwrites[network] ?? {})
+          .filter(([, o]) => o.extensions?.coingeckoId === null)
+          .map(([addr]) => getAddress(addr))
       )
-      const generatedAddrs = chainTokens.map((t) => getAddress(t.address))
-      const expectedAddrs = new Set(tokens[network].map((a) => getAddress(a)))
 
-      // Generated may lag allowlist until regenerate runs; every generated
-      // curated-network token must still be allowlisted.
-      expect(generatedAddrs.length).toBeGreaterThan(0)
-      for (const addr of generatedAddrs) {
-        expect(expectedAddrs.has(addr)).toBe(true)
-      }
+      // The generated file is only rebuilt after a PR merges, so it can lag the
+      // allowlist in both directions: newly added tokens are missing, and
+      // removed or replaced tokens are still present. Only validate generated
+      // tokens that are still allowlisted.
+      const chainTokens = generatedList.tokens.filter(
+        (t) =>
+          t.chainId === Number(network) &&
+          allowlisted.has(getAddress(t.address))
+      )
+      expect(chainTokens.length).toBeGreaterThan(0)
 
-      let wrapperCount = 0
       for (const token of chainTokens) {
         expect(
           typeof token.logoURI === 'string' && token.logoURI.length > 0,
           `Missing logoURI on generated ${token.chainId}:${token.address}`
         ).toBe(true)
         expect(token.logoURI).not.toContain('balancer/tokenlists')
+
+        // Wrappers (coingeckoId: null in overwrites) must carry the null
+        // through to the generated token, and nothing else may be null.
+        const isWrapper = wrapperOverwrites.has(getAddress(token.address))
+        expect(
+          token.extensions?.coingeckoId === null,
+          `Wrapper coingeckoId mismatch on ${token.chainId}:${token.address}`
+        ).toBe(isWrapper)
 
         if (
           !Object.prototype.hasOwnProperty.call(
@@ -188,10 +200,7 @@ describe('Frontier tokenlist curation', () => {
           cgId === null || (typeof cgId === 'string' && cgId.length > 0),
           `Invalid extensions.coingeckoId on ${token.chainId}:${token.address}`
         ).toBe(true)
-        if (cgId === null) wrapperCount++
       }
-
-      expect(wrapperCount).toBe(expectedWrappers)
     }
   })
 })
