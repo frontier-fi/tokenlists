@@ -2,12 +2,12 @@ import { drpcRpc } from './drpc'
 
 export default {
   name: 'ethereum',
-  rpc: drpcRpc('ethereum'),
+  rpc: drpcRpc('ethereum') ?? 'https://ethereum-rpc.publicnode.com',
   coingecko: {
     platformId: 'ethereum',
   },
   trustWalletNetwork: 'ethereum',
   addresses: {
-    multicaller: '0x5ba1e12693dc8f9c48aad8770482f4739beed696',
+    multicaller: '0xca11bde05977b3631167028862be2a173976ca11',
   },
 }

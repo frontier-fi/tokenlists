@@ -17,6 +17,12 @@ const CURATED_NETWORKS: Array<{
   expectedWrappers: number
 }> = [
   {
+    network: Network.Ethereum,
+    file: 'ethereum.ts',
+    expectedTotal: 79,
+    expectedWrappers: 39,
+  },
+  {
     network: Network.Base,
     file: 'base.ts',
     expectedTotal: 46,
@@ -31,9 +37,10 @@ const CURATED_NETWORKS: Array<{
 ]
 
 describe('Frontier tokenlist curation', () => {
-  it('enables regeneration for Sepolia and Base', () => {
+  it('enables regeneration for Sepolia, Base, and Ethereum', () => {
     expect(NETWORKS_TO_REGENERATE).toContain(Network.Sepolia)
     expect(NETWORKS_TO_REGENERATE).toContain(Network.Base)
+    expect(NETWORKS_TO_REGENERATE).toContain(Network.Ethereum)
   })
 
   it('rebrands tokenlist metadata to Frontier', () => {
@@ -138,7 +145,7 @@ describe('Frontier tokenlist curation', () => {
     }
   })
 
-  it('generated tokenlist has Frontier branding and valid optional coingeckoIds on Base and Sepolia', () => {
+  it('generated tokenlist has Frontier branding and valid optional coingeckoIds on Ethereum, Base, and Sepolia', () => {
     const generatedPath = path.resolve(
       process.cwd(),
       'generated/balancer.tokenlist.json'
