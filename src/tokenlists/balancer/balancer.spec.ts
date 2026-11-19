@@ -63,8 +63,9 @@ describe('Frontier tokenlist curation', () => {
       )
       const match = source.match(/\[([\s\S]+?)\]/)
       expect(match).not.toBeNull()
+      const arrayBody = match?.[1] ?? ''
       for (const addr of addresses) {
-        expect(match![1]).toContain(addr)
+        expect(arrayBody).toContain(addr)
       }
     }
   )
@@ -87,9 +88,7 @@ describe('Frontier tokenlist curation', () => {
 
       for (const addr of networkTokens) {
         const extensions = networkOverwrites[addr]?.extensions ?? {}
-        if (
-          !Object.prototype.hasOwnProperty.call(extensions, 'coingeckoId')
-        ) {
+        if (!Object.prototype.hasOwnProperty.call(extensions, 'coingeckoId')) {
           continue
         }
 
@@ -158,9 +157,7 @@ describe('Frontier tokenlist curation', () => {
         (t) => t.chainId === Number(network)
       )
       const generatedAddrs = chainTokens.map((t) => getAddress(t.address))
-      const expectedAddrs = new Set(
-        tokens[network].map((a) => getAddress(a))
-      )
+      const expectedAddrs = new Set(tokens[network].map((a) => getAddress(a)))
 
       // Generated may lag allowlist until regenerate runs; every generated
       // curated-network token must still be allowlisted.
