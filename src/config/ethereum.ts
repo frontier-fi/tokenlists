@@ -2,7 +2,7 @@ import { drpcRpc } from './drpc'
 
 export default {
   name: 'ethereum',
-  rpc: drpcRpc('ethereum') ?? 'https://ethereum-rpc.publicnode.com',
+  rpc: drpcRpc('ethereum') ?? 'https://mainnet.gateway.tenderly.co',
   coingecko: {
     platformId: 'ethereum',
   },

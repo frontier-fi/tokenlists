@@ -2,7 +2,7 @@ import { drpcRpc } from './drpc'
 
 export default {
   name: 'base',
-  rpc: drpcRpc('base') ?? 'https://mainnet.base.org',
+  rpc: drpcRpc('base') ?? 'https://base.gateway.tenderly.co',
   coingecko: {
     platformId: 'base',
   },
