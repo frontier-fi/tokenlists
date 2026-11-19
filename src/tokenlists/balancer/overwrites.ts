@@ -850,6 +850,11 @@ export const overwrites: OverwritesForList = {
         coingeckoId: 'coinbase-wrapped-staked-eth',
       },
     },
+    '0xcb585250f852C6c6bf90434AB21A00f02833a4af': {
+      extensions: {
+        coingeckoId: 'coinbase-wrapped-xrp',
+      },
+    },
     '0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452': {
       extensions: {
         coingeckoId: 'wrapped-steth',
@@ -878,6 +883,76 @@ export const overwrites: OverwritesForList = {
     '0xd09ACb80C1E8f2291862c4978A008791c9167003': {
       extensions: {
         coingeckoId: 'treehouse-eth',
+      },
+    },
+    '0xacfE6019Ed1A7Dc6f7B508C02d1b04ec88cC21bf': {
+      extensions: {
+        coingeckoId: 'venice-token',
+      },
+    },
+    '0x940181a94A35A4569E4529A3CDfB74e38FD98631': {
+      extensions: {
+        coingeckoId: 'aerodrome-finance',
+      },
+    },
+    '0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b': {
+      extensions: {
+        coingeckoId: 'virtual-protocol',
+      },
+    },
+    '0xBAa5CC21fd487B8Fcc2F632f3F4E8D37262a0842': {
+      extensions: {
+        coingeckoId: 'morpho',
+      },
+    },
+    '0x63706e401c06ac8513145b7687A14804d17f814b': {
+      extensions: {
+        coingeckoId: 'aave',
+      },
+    },
+    '0x88Fb150BDc53A65fe94Dea0c9BA0a6dAf8C6e196': {
+      extensions: {
+        coingeckoId: 'chainlink',
+      },
+    },
+    '0x311935Cd80B76769bF2ecC9D8Ab7635b2139cf82': {
+      extensions: {
+        coingeckoId: 'solana',
+      },
+    },
+    '0xb2000000000000000000008bC8786B856E61707C': {
+      extensions: {
+        coingeckoId: 'meta-coinbase-tokenized-stock',
+      },
+    },
+    '0xb20000000000000000000078ee7ce2fE4908108C': {
+      extensions: {
+        coingeckoId: 'nvidia-coinbase-tokenized-stock',
+      },
+    },
+    '0xb2000000000000000000002D0BA3164cc74f58B7': {
+      extensions: {
+        coingeckoId: 'alphabet-coinbase-tokenized-stock',
+      },
+    },
+    '0xb200000000000000000000d9192b6B456483C2E8': {
+      extensions: {
+        coingeckoId: 'amazon-coinbase-tokenized-stock',
+      },
+    },
+    '0xB200000000000000000000Ab99cFa739E253872B': {
+      extensions: {
+        coingeckoId: 'microsoft-coinbase-tokenized-stock',
+      },
+    },
+    '0xb2000000000000000000001e800a7f5189430cD0': {
+      extensions: {
+        coingeckoId: 'tesla-coinbase-tokenized-stocks',
+      },
+    },
+    '0xb200000000000000000000C2e324d24d7eEcd1fb': {
+      extensions: {
+        coingeckoId: 'apple-coinbase-tokenized-stock',
       },
     },
     '0xe298b938631f750DD409fB18227C4a23dCdaab9b': {
