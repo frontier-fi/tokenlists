@@ -19,7 +19,7 @@ const CURATED_NETWORKS: Array<{
   {
     network: Network.Ethereum,
     file: 'ethereum.ts',
-    expectedTotal: 77,
+    expectedTotal: 78,
     expectedWrappers: 38,
   },
   {

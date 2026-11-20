@@ -414,6 +414,11 @@ export const overwrites: OverwritesForList = {
         coingeckoId: null,
       },
     },
+    '0xba100000625a3754423978a60c9317c58a424e3D': {
+      extensions: {
+        coingeckoId: 'balancer',
+      },
+    },
   },
   [Network.HyperEVM]: {
     '0x5555555555555555555555555555555555555555': {

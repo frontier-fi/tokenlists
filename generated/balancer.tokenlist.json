@@ -3,7 +3,7 @@
     "version": {
         "major": 1,
         "minor": 0,
-        "patch": 572
+        "patch": 573
     },
     "keywords": [
         "Frontier",
@@ -16,7 +16,7 @@
         "Token",
         "Swap"
     ],
-    "timestamp": "2026-11-19T14:55:30.238Z",
+    "timestamp": "2026-11-20T14:47:24.483Z",
     "tokens": [
         {
             "chainId": 1,
@@ -445,6 +445,17 @@
             "logoURI": "https://coin-images.coingecko.com/coins/images/13573/large/Lido_DAO.png?1696513326",
             "extensions": {
                 "coingeckoId": "lido-dao"
+            }
+        },
+        {
+            "chainId": 1,
+            "address": "0xba100000625a3754423978a60c9317c58a424e3D",
+            "name": "Balancer",
+            "symbol": "BAL",
+            "decimals": 18,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/11683/large/Balancer.png?1696511572",
+            "extensions": {
+                "coingeckoId": "balancer"
             }
         },
         {
