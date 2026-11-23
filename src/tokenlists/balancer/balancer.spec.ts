@@ -34,13 +34,20 @@ const CURATED_NETWORKS: Array<{
     expectedTotal: 19,
     expectedWrappers: 7,
   },
+  {
+    network: Network.Monad,
+    file: 'monad.ts',
+    expectedTotal: 59,
+    expectedWrappers: 29,
+  },
 ]
 
 describe('Frontier tokenlist curation', () => {
-  it('enables regeneration for Sepolia, Base, and Ethereum', () => {
+  it('enables regeneration for Sepolia, Base, Ethereum, and Monad', () => {
     expect(NETWORKS_TO_REGENERATE).toContain(Network.Sepolia)
     expect(NETWORKS_TO_REGENERATE).toContain(Network.Base)
     expect(NETWORKS_TO_REGENERATE).toContain(Network.Ethereum)
+    expect(NETWORKS_TO_REGENERATE).toContain(Network.Monad)
   })
 
   it('rebrands tokenlist metadata to Frontier', () => {
@@ -145,7 +152,7 @@ describe('Frontier tokenlist curation', () => {
     }
   })
 
-  it('generated tokenlist has Frontier branding and valid optional coingeckoIds on Ethereum, Base, and Sepolia', () => {
+  it('generated tokenlist has Frontier branding and valid optional coingeckoIds on Ethereum, Base, Monad, and Sepolia', () => {
     const generatedPath = path.resolve(
       process.cwd(),
       'generated/balancer.tokenlist.json'
