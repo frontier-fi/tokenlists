@@ -11,4 +11,5 @@ export const NETWORKS_TO_REGENERATE: Network[] = [
   Network.Sepolia,
   Network.Base,
   Network.Ethereum,
+  Network.Monad,
 ]

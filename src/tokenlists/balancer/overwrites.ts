@@ -1451,54 +1451,238 @@ export const overwrites: OverwritesForList = {
     },
   },
   [Network.Monad]: {
-    '0x01bff41798a0bcf287b996046ca68b395dbc1071': {
+    // Core & Underlyings
+    '0xEE8c0E9f1BFFb4Eb878d8f15f368A02a35481242': {
       extensions: {
-        coingeckoId: 'tether-gold-tokens',
+        coingeckoId: 'weth',
       },
     },
-    '0x0555e30da8f98308edb960aa94c0db47230d2b9c': {
+    '0x754704Bc059F8C67012fEd69BC8A327a5aafb603': {
+      extensions: {
+        coingeckoId: 'usd-coin',
+      },
+    },
+    '0xe7cd86e13AC4309349F30B3435a9d337750fC82D': {
+      extensions: {
+        coingeckoId: 'usdt0',
+      },
+    },
+    '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c': {
       extensions: {
         coingeckoId: 'wrapped-bitcoin',
       },
     },
-    '0x0d9d741fe423cd5419e4bcb6cb2ffa87afa93ba4': {
+    '0xd18B7EC58Cdf4876f6AFebd3Ed1730e4Ce10414b': {
       extensions: {
-        coingeckoId: 'avant-usd',
+        coingeckoId: 'coinbase-wrapped-btc',
       },
     },
-    '0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2': {
+    '0x01bFF41798a0BcF287b996046Ca68b395DbC1071': {
       extensions: {
-        coingeckoId: 'ethena-staked-usde',
+        coingeckoId: 'tether-gold-tokens',
       },
     },
-    '0x484be0540ad49f351eaa04eeb35df0f937d4e73f': {
+    '0xfc421aD3C883Bf9E7C4f42dE845C4e4405799e73': {
       extensions: {
-        coingeckoId: 'staked-yuzu-usd',
+        coingeckoId: 'gho',
       },
     },
-    '0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34': {
+    '0xA3D68b74bF0528fdD07263c60d6488749044914b': {
       extensions: {
-        coingeckoId: 'ethena-usde',
+        coingeckoId: 'wrapped-eeth',
       },
     },
-    '0x9648db94f1e6b19e7d755585542981f97dc806c6': {
-      extensions: {
-        coingeckoId: 'avant-staked-usd',
-      },
-    },
-    '0xab6e5a0c3799d020c790d34f7b2c02639e238af7': {
-      extensions: {
-        coingeckoId: 'syrupusdc',
-      },
-    },
-    '0xc50f2e735edd9dcd8ccd41ecfe9894e679e3195f': {
+    '0xC50f2e735eDd9dCD8Ccd41EcFE9894E679e3195f': {
       extensions: {
         coingeckoId: 'rocket-pool-eth',
       },
     },
-    '0xd18b7ec58cdf4876f6afebd3ed1730e4ce10414b': {
+    '0x10Aeaf63194db8d453d4D85a06E5eFE1dd0b5417': {
       extensions: {
-        coingeckoId: 'coinbase-wrapped-btc',
+        coingeckoId: 'wrapped-steth',
+      },
+    },
+    '0x484be0540aD49f351eaa04eeB35dF0f937D4E73f': {
+      extensions: {
+        coingeckoId: 'staked-yuzu-usd',
+      },
+    },
+    '0x0D9D741FE423Cd5419e4BCb6cB2FfA87AFa93bA4': {
+      extensions: {
+        coingeckoId: 'avant-usd',
+      },
+    },
+    '0x9648dB94F1e6B19e7D755585542981F97dc806c6': {
+      extensions: {
+        coingeckoId: 'avant-staked-usd',
+      },
+    },
+    '0xaB6e5a0C3799d020c790D34F7B2C02639e238AF7': {
+      extensions: {
+        coingeckoId: 'syrupusdc',
+      },
+    },
+    '0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34': {
+      extensions: {
+        coingeckoId: 'ethena-usde',
+      },
+    },
+    '0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2': {
+      extensions: {
+        coingeckoId: 'ethena-staked-usde',
+      },
+    },
+
+    // Aave V3 Wrappers (ERC4626)
+    '0x5E7109A755fD2b86361F95065cDE07FbAb50CA1D': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0xC554aFfE2f581F5E0811e0D42D484ECaC5c6B8e2': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x9e1AcC5BFbf34e2E579763cE14042d957719fE76': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x967d427eF0Eb4AEB7a1B523A98B04061F094276B': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x6A7C826974994c4CE012B2fb32FE9D30d6366380': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x7c9e74e6C6E5DafAf9b44F60bf8eBbe81CA70d4F': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x6f2cdF03c8343E1eA608668812Fb094E46C41C80': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0xDc00342D80de85a8b843Dab1f29bb407B3abeB64': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x50591A9F86972C591b6FE858b465f5B65d5c24ee': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0xcdc050015042701f6B3af3b87990945d415FA657': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x4eC854a6fDF52Eb64F8CabF87FafD3B1f1743a00': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+
+    // Neverland Wrappers (ERC4626)
+    '0xdB39A9D4a1f1b4e93A5684d602207628aD60613C': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x8d5c2Df3Eef09088Fcccf3376D8EcD0Dd505f642': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x4e8aaecCE10ad9394e96fE5f2bd4e587A7B04298': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x82c370ba90E38ef6Acd8b1b078d34fD86FC6bAC9': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0xD786F7569C39A9F64E6A54Eb77db21364E90F279': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x5e073494678fB7FA4a05bB17d45941Dd9Dc469c1': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x08139339dd9A480CEB84D9C7CcE48BE436dB20b3': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x29D2075E5151B1A6863bDC40EA86bD5e8aFd1705': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0xB3b850ac62B89fe9f4eFB652b516108a8aEb8848': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x8959f4E6ED1f4567a464959793d5f8f6f33C1C8B': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x98a297e6424787E57Af119949d7E00b721F832BB': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x22139A346b6312EB0A9812C67CfCe4A694676d59': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+
+    // Curvance / Blueberry Wrappers (ERC4626)
+    '0x8E94704607E857eB3E10Bd21D90bf8C1Ecba0452': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0xf473568b26B8C5aadCa9fbC0eA17E1728d5ec925': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x0fcEd51b526BfA5619F83d97b54a57e3327eB183': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0xC2ddc1004CA0d6cC4bFd1dCD03Dcf855bED8E670': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+    '0x215394B5677Cb7a18B6fA8cc2cD155C024ee6b2E': {
+      extensions: {
+        coingeckoId: null,
+      },
+    },
+
+    // Euler / Clearstar Wrappers (ERC4626)
+    '0xE1BcA19baA63894D374578320551633320436523': {
+      extensions: {
+        coingeckoId: null,
       },
     },
   },

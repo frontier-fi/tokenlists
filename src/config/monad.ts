@@ -2,7 +2,7 @@ import { drpcRpc } from './drpc'
 
 export default {
   name: 'monad',
-  rpc: drpcRpc('monad'),
+  rpc: drpcRpc('monad') ?? 'https://monad.gateway.tenderly.co',
   coingecko: {
     platformId: 'monad',
   },
