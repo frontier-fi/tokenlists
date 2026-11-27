@@ -1121,6 +1121,16 @@ export const overwrites: OverwritesForList = {
         coingeckoId: 'treehouse-eth',
       },
     },
+    '0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2': {
+      extensions: {
+        coingeckoId: 'ethena-staked-usde',
+      },
+    },
+    '0x660975730059246A68521a3e2FBD4740173100f5': {
+      extensions: {
+        coingeckoId: 'syrupusdc',
+      },
+    },
     '0xacfE6019Ed1A7Dc6f7B508C02d1b04ec88cC21bf': {
       extensions: {
         coingeckoId: 'venice-token',
