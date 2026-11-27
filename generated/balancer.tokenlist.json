@@ -3,7 +3,7 @@
     "version": {
         "major": 1,
         "minor": 0,
-        "patch": 574
+        "patch": 575
     },
     "keywords": [
         "Frontier",
@@ -16,7 +16,7 @@
         "Token",
         "Swap"
     ],
-    "timestamp": "2026-11-23T20:52:57.961Z",
+    "timestamp": "2026-11-27T04:07:24.603Z",
     "tokens": [
         {
             "chainId": 1,
@@ -6631,6 +6631,28 @@
             "logoURI": "https://coin-images.coingecko.com/coins/images/40155/large/tETH_Logo_%28Color__No_Background%29.png?1748368386",
             "extensions": {
                 "coingeckoId": "treehouse-eth"
+            }
+        },
+        {
+            "chainId": 8453,
+            "address": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
+            "name": "Staked USDe",
+            "symbol": "sUSDe",
+            "decimals": 18,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/33669/large/sUSDe-Symbol-Color.png?1716307680",
+            "extensions": {
+                "coingeckoId": "ethena-staked-usde"
+            }
+        },
+        {
+            "chainId": 8453,
+            "address": "0x660975730059246A68521a3e2FBD4740173100f5",
+            "name": "Syrup USDC",
+            "symbol": "syrupUSDC",
+            "decimals": 6,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/54658/large/syrupUSDC.png?1790836003",
+            "extensions": {
+                "coingeckoId": "syrupusdc"
             }
         },
         {
